@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head><title>Notable</title></head>
+<body>
+<h2>Notable</h2>
+<p>Notable is used to take hand written flat text notes and creates a PDF with many features but without requiring the author to know LaTeX.</p>
+<p>Notable comes with a very powerful feature that allows you to specify key phrases that Notable will look up on Wikipedia at compile time.
+The firt time Notable runs on a document it creates a database of links. It searches the term finds the hyperlink 
+to the appropriate page and make an entry in the database. All links are refreshed automatically after 6 months.</p>
+
+<h4>Images</h4>
+<p>Notable works by querying Wikipedia for all text that appears with in the special delimiters of '+'. In addition if there is an 
+image associated with the article it will be downloaded as well and added to the text automatically. Notable behaves 
+in the following ways based finding a request for link ('+')</p>
+<ol>
+<li>Query Wikipedia with the API described in Widimedia for the requested article.
+<li>If there is no associated image, the available link is written to file and results written out to the LinkDictionary.
+<li>If there is an associated image, it will be downloaded and inserted into the document after the line that the link appears in.
+<li>If the image is deleted from the directory, nothing will happen to the LaTeX document. To fix it 
+	delete the link dictionary and a new one will be generated for the document.
+</ol>
+
+<p>You can fix spelling mistakes too. I always spell 'the' teh. Just make an entry in the chardict.txt and Notable will
+replace all references it finds with the corresponding correction.
+</p>
+
+<p>
+Notable has a feature that you can set the title and author of your document with the following commands<br/>
+<code>
+<pre>
+AUTHOR:Author Name
+TITLE:Title of Document
+</pre>
+</code>
+These upper case values are pre-processed by LetterOpener so they are ready to be used when the LaTeX document is 
+created, and will create a cover page.
+<table>
+<thead><tr><th>Function</th><th>Command</th></tr></thead>
+<tbody>
+<tr><td>Chapter</td><td>'<code>===[Chapter Title]</code>'</td></tr>
+<tr><td>Code</td><td>'<code>code:<br/>[code text verbatim]<br/>code:</code>'</td></tr>
+<tr><td>Definition</td><td>'<code>def:[term] -- [definition]</code>'</td></tr>
+<tr><td>Figure</td><td>'<code>fig:[figure.ps]<br/>[Figure caption]</code>'</td></tr>
+<tr><td>Hyperlink Search</td><td>'<code>+[Phrase to look up]+</code>'</td></tr>
+<tr><td>Numbered List</td><td>'<code># [item of the numbered list.]</code>'</td></tr>
+<tr><td>Ordered List</td><td>'<code>- [item of the itemized list.]</code>'</td></tr>
+<tr><td>Section</td><td>'<code>\t[Section Name]</code>'</td></tr>
+<tr><td>Sub Section</td><td>'<code>\t\t[Sub Section Name]</code>'</td></tr>
+<tr><td>Sub Sub Section</td><td>'<code>\t\t\t[Sub Sub Section Name]</code>'</td></tr>
+<tr><td>Table</td><td>'<code>table:[optional title]<br/>-<br/>title ['|' or TAB] next title<br/>-<br/>one ['|' or TAB] next one<br/>two ['|' or TAB] next two<br/>-<br/>table:<br/></code>'</td></tr>
+</tbody>
+</table>
+
+<p><b>Note:</b> all commands must appear as the first text on a line.</p>
+<p>Also note that there need not be a space between the command and its arguments; in fact fig: requires that there be no space.</p>
+
+</body>
+</html>
