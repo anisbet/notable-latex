@@ -1,0 +1,886 @@
+AUTHOR:Andrew Nisbet
+TITLE:Philosophy 301\\ Winter 2011
+===Lecture from  Tuesday January 11, 2011
+
+	Theories of Liberation
+Neil Dalal office Assin. 3-66 Tues Thursday 14:00 - 15:00
+ndalal@ualberta.ca
+The moodle site is \href{http://www.arts.ualberta.ca/philmoodle/}{here} and the password is \textbf{veda}.
+
+	Philiosophy
+
+def: Phili - Love
+def: Sophia - Wisdom
+
+Based on arguments -- slow motion thinking of a topic. We are conditioned to react to arguments and it is important to think about the argument without thinking obout the content. Consider if all the dots in an argument connect.
+
+Next consider what makes a good argument? What are the main points? What are the starting points? The paper is meant to be an argument of a point of view. Make an opinion and be able to back them up.
+
+		Sanskrit
+An ancient language of India. There is no word for philosophy in Sanskrit. Pali is another sub set of Sanskrit and also does not have a word for philosophy. The root of Darsana -- to see -- is the closest word they use. The traditions of Darsana  are broken into to groups, one that believes in the Veda texts \textit{astika}; Vedanta, Yoga, Mimamsa and Nyaya\footnote{Indian logic.} and those that don't \textit{nastika}. The Buddists, Jains and Carvakas are all nastika. The Jains are staunch materialists.
+===Lecture from  Thursday January 13, 2011
+	Background
+Until recently it has been thought that philosophy is practiced (by professionals) by `dead white men'. This is changing but until recently there has been no one to bring Indian philosophy to Western universities, and the culture has been guided by that. For instance there is only one none western philosophy course in this university.
+
+There is a notion that indian philosophy is mystical or spiritual which is problematic. There is a link between religion and India.
+
+		Religion
+There is no definition, but there is an expectation of the notion of religion. It is problematic because it doesn't necessarily mean anything. There may be someone that believes that their dog is a god. Or a person may go to church and celebrate Christmas, but be agnostic. Are they religious? The point is that the term \textbf{religion} crumbles under scrutiny, and is easily deconstructed.
+
+def: religion -- an unvarifiable belief.
+
+		Debate and Means of Knowledge
+What are the sources of valid knowledge? One must agree on means of knowledge. You cannot relinquish validity of religious thought by deferring to a sacred text because there must be a ground to agree upon for debate to occur. There are Indian manuals that guide debate. They outline that inference is a valid form of debate and they define what is rational and therefore valid to debate.
+
+There are many Christian philosophers that are very rigorous but go into debate with certain ideas that are sacrosanct, there are places that they decide not to go.
+
+def: Apologetic -- defending a belief.
+
+def: Rsis -- a person with super human abilities.
+
+There is more clarity in the difference between theological and philosophical thinking. Modern philosophy tends to be divorsed from a personal quest. Is there some absolute truth that I can learn from or wisdom that you can attain in this life. Indian philosophy is not so much like this.
+
+	Containing Myth
+		Practical necessity
+An example would be how to live a life full of wistom.
+		Disquiet
+A yearning for something else, some kind of internal simmering anxiety.Some are in touch with it and others are not in touch. Those that are not in touch might look to making money or aquiring power.
+		Eternal Moral Order
+Dharma (Thearma) - ethics, law or virtue.
+		Karma
+Every action has an accrude effect. There is a whole debate over what is good karma or bad karma. What is right and how do you decide? There are \textit{seen} and \textit{unseen} effects. Seen effects might be things like being thanked or other events. The unseen effects refer to a ritual effect. The seen effect is sacraficing a bull, but the idea is that there is an unseen effect (like prayer) will somehow stick or create an effect -- as a belief. It also accounts for situational cunundrums like why are they born into a wealthy family and I am not.
+			Law of Karma
+Seen like a law of gravity.
+			Types of Karma
+# Karma Bank account, every time you live you withdraw from the karma bank account.
+# Already begun karma -- being born into a culture, or family or political system. You are influenced by things beyond your control. You do have free will however. There must be a free choice or you do not gain karma
+# During life Karma -- during your life you accrue Karma which goes into your karmic bank account.
+
+The idea is that you are connected to your karmic debt through a method that is not clear, but the idea is you work off your karmic debt, and you will be reborn to complete the task.
+
+		Cyclical Time
+There is an idea that there is an infinite number of lives. During your life you accure karma and deplete it but you will return to repay your debt.
+
+The goal is not to be reborn. One way to do this is get rid of a sense of agency like divorse yourself from self.
+===Lecture from  Tuesday January 18, 2011
+	Karma
+Karma is the fuel for rebirth.
+
+Animals don't create karma in the sense of many traditions because animals (they feel) don't have free will and so don't create karma. It is not in the tiger's mind to know what is right or wrong. Also karma is only accrued when you \textit{intentionally} step on bugs.
+
+		Fundamental Ignorance
+Due to a fundamental ignorance we have a false sense of self. It leads to desire because we want to get rid of something or what I want to get rid of. When you don't get what you want, it creates anger. You do action and create more karma -- becoming a self-fulfillment.
+
+		Cyclical Time
+The notion that time is circular -- there is no first point, but the universe manifests and un-manifests. This is also true for people. There is no first birth because ignorance doesn't have any birth either.
+
+def: Samsara -- ``to walk in a circle'' -- the notion of the cycle of birth and death.
+
+This is part of the world view of a lot of traditions, but is it materialist? Many of them are no longer known because the texts don't survive. Part of the reason was that the texts are inscribed on banana leaves that would last only a couple of hundred years. India is a tropical country and things degrade in that environment quickly, texts would have to be re-written to refresh the texts and if the king didn't pay for it, it didn't get done.
+
+		Asceticism
+Renunciation, monasticism -- there is a wide range of ascetic life from tight monastic to monks a business men with presses in the monastary.
+
+		Teacher / Student Relationship
+Closed traditions have a notion that the teacher student relationship is like a parent child relationship.
+
+	The Origins of Indian Traditions
+		Indus Valley
+The beginning of Indian traditions is thought to date back to 4,000 - 2,500 BCE in the early period of the \href{http://en.wikipedia.org/wiki/Indus_Valley_Civilization}{Indus Valley} area in the North East of India on the border of Pakistan. The middle period was 2,600-1,900 BCE and the late period from 1,900-1,700 BCE.
+
+The culture is very advanced, with irrigation, toilets, drainage and urban design. They have enimatic seals with images on them. The figures on them show meditation and mother goddess figures and sacraficial bathing pools. We don't know what there culture was or what happened to it.
+
+		Vedic Culture 1200-1500 BCE
+Called themselves Aryans -- meaning noble people -- they were the authors of Vedas. The Vedic culture is refered to as Hindu\footnote{Though there is nothing that you can point to say is Hindu.} and are considered distant cousines of European cultures. The theory is that the Aryans invaded and pushed the Dravidian culture down south and brought their culture to the area. The second theory is one of indigenous origin. Both are contriversial. The most accepted theory is that there was a migration theory. Since there is no evidence of violence, but there is evidence of horses which are not indigineous to India and suplant the native populations.
+
+The texts of this culture were held orally, but the text survived to date almost unchanged because of memorization techniques like reciting them backwards and shifting the combinations of verses.
+
+		The Four Vedas
+# Rg - oldest and all in hymns
+# Yajur - contains ritual formulae
+# Sama - song version of Rg.
+# Atharva - magic includeing black and healing magic.
+
+
+Each Veda is broken into four parts:
+# Samhita - hymns
+# Brahmanas - speculation of the text's meaning
+# Aryanyakas - secret teachings that are only taught in the forest
+# Upanishads - date from $9^{th}$ century BCE.
+
+These texts are considered truths and were revealed and not just made up, and are chronological in the order written above.
+
+A lot of philosophy is derived from rituals. Agni is a fire god and is asked many questions like how to I get children, how do I maintain harmony\footnote{Considered a duty because failing to practice it would not ony bring ruin to you, but to others around you too.} When you get married you maintain a fire, sometimes for your whole life, into which you put sacrafice, with the idea that the fire sends the gifts to Agni and the heavenly world.
+
+One of the most hymns is the creation hymn (\textit{Nasadiya Sukta}) and was one of the readings (oops).
+
+	Rg Veda 10.129
+\begin{quote}
+The Nasadiya-sukta\\
+Hymn of Creation\\
+1)\\
+The non-existent did not exist, nor did the existent exist at that time.\\
+There existed neither the midspace nor the heaven beyond.\\
+What stirred? From where and in whose protection?\\
+Did water exist, a deep depth?\\
+2)\\
+Death did not exist nor deathlessness then.\\
+There existed no sign of night nor of day.\\
+That One breathed without wind through its inherent force.\\
+There existed nothing else beyond that.\\
+3)\\
+Darkness existed, hidden by darkness, in the beginning.\\
+All this was a signless ocean.\\
+When the thing coming into being was concealed by emptiness,\\
+Then was the One born by the power of heat.\\
+4)\\
+Then, in the beginning, from thought there developed desire,\\
+Which existed as the primal semen.\\
+Searching in their hearts through inspired thinking\\
+Poets found the connection of the existent in the non-existent.\\
+5)\\
+Their cord was stretched across:\\
+Did something exist below it? Did something exist above?\\
+There were placers of semen and there were powers.\\
+There was inherent force below, offering above.\\
+6)\\
+Who really knows? Who shall here proclaim it? –\\
+From where was it born, from where this creation?\\
+The gods are on this side of the creation of this world.\\
+So then who does know from where it came to be?\\
+7)\\
+This creation – from where it came to be,\\
+If it was produced or if not –\\
+He who is the overseer of this world in the highest heaven,\\
+He surely knows. Or perhaps he does not know?\\
+\end{quote}
+This brings about the birth of scepticism in India.
+===Lecture from  Thursday January 20, 2011
+	Soma
+This was a plant that was pressed and the juice was used as an offering. It was thought to be Afedra, but no one really knows. Soma was thought to be from the moon or closely related to the moon. It occurs in the --- Hymn.
+
+	Veda Tradition
+Probably different from the Indus Valley culture, but could be realted.
+
+The primary vepashinas come into existance in about 900-200 BCE. The Buddha in the $5^{th}$ century BCE Jains -- Mahavira $6-7^{th}$ century BCE. Buddism follows the Silk trade routes around asia minor very quickly. Most of the Indian texts are written 400 BCE -- 400 CE including the epics Mahabharata, Ramayana, Dharmasastras and Kama Sutra.
+
+	History and Sutras
+			Panini
+Develops a grammer system that works like a computer program, and trumps all others and is considered the crowning achievement. Sutras\footnote{Where we get the word suture, or thread.} was considered important in that it was important to be terse. So the grammer included a meta-language that includes instructions that for the next few stanzas this word means something, and then it doesn't.
+
+			Brahma Sutras
+\href{http://en.wikipedia.org/wiki/Brahma_Sutras}{The Brahma Sutras} pack a punch and are pithy, but would take no more than an hour to read. They are commentaries. Indian philosophy can be divided into two camps: materialists and non-materialists.
+
+	Materialists -- Don't Accept Vedas
+This group are made up of the Jains, Buddhists and Carvakas. They are non-othadox traditions. This group don't believe in the Vedas. AKA the wandering traditions. These people were to give up their possessions and wander, some even believed that they would perform their own cremations to purify themselves and thus rid themselves of worldly possessions. They proselytizing religions.
+
+	Hindu -- Accepts Vedas
+This group believes in the Vedas. They develop a class system that eventually becomes osified into the classes that are prevelant today. You are born into a class and that's it. It is based in ritual that you couldn't take part in rituals if you were not married.
+
+		Sankhya (Wisdom or Knowledge)
+There are six major traditions which are grouped into groups of two. We will be looking at Yoga and Sankhya. Two others are Mimamsa\footnote{A ritual philosophy, or ritual action. It is a Vedic ritual, these two focus on the Vedas. It describes the actions that will lead to getting to heaven.} and Vedanta\footnote{Literally the end of the Vedas -- upanishads, the universal self and deals with non-duality.}. The last two are Nyaya\footnote{Deals with logic and epistemology.} and Vaisesika\footnote{An ontological branch of thought that includes the first description of atoms as the smallest unseen particles.}.
+
+Sankhya is involved with the question of `who am I'. The question is who is the `I' that experiences things. If you can objectify things, you must be different from the thing that you are objectifying. No one thinks that they are the pen they are looking at. This is the leaping off point for dualism.
+
+But what about the seat that you are sitting on -- that's pretty close but still not me. Basically anything that you can perceive can be objectified. I can perceive my hand though, is that me? I can objectify my entire body, so you are not your body.
+
+But what about \textit{sensation}, you can accidentally put salt in your coffee you know it because you can objectify it as salty. Further, do you know when you are happy or when you were dreaming, so they are objects too. So what can you not objectify yourself? There seems to be something that is more core that cannot be objectified. This is where Yoga starts. They are not saying that you don't exist, they are saying that there is some consciousness beyond the mind. The problem is that you exist, but we extend ourselves to a place that it shouldn't go by saying `I am this conscience mind'. A path throught this that the philosophy is structured on is that consciousness is self illuminating like, you not needing light to see the sun.
+===Lecture from  Tuesday January 25, 2011
+	Causality
+Relationship between cause and effect?
+
+def:Vaisesikas - effect doesn't exist in cause. This is something that is non existant prior it its cause. This is that if you make a hammer out of iron.
+
+def:Sat-karya-vada - this says that the effect does exist in the cause; the effect doesn't exist in the iron but rather in the production of the effect is just bringing it out. The hammer didn't exist prior to existence and once melted down again it doesn't exist again.
+
+This is looking for a substratum of all things.
+
+	Sankhya
+		Dualistic Realism
+			Primary Principles
+# Purusha - spirit or consciousness. Unchanging and not connected to any body and arises before even mind or body.In Hinduism, Purusha (Sanskrit puruṣa, पुरुष "man, Cosmic man", in Sutra literature also called puṃs "man") is the "self" which pervades the universe. The Vedic divinities are considered to be the human mind's interpretation of the many facets of Purusha. According to the Rigvedic Purusha sukta, Purusha was dismembered by the devas -- his mind is the Moon, his eyes are the Sun, and his breath is the wind.
+In the Rigveda, Purusha is described as a primeval giant that is sacrificed by the gods (see Purushamedha) and from whose body the world and the varnas (castes) are built. He is described as having a thousand heads and a thousand feet. He emanated Virat, the female creative principle, from which he is reborn in turn before the world was made out of his parts.
+In the sacrifice of Purusha, the Vedic chants were first created. The horses and cows were born, the Brahmins were made from Purusha's mouth, the Ksatriya from his arms, the Vaisyas from his thighs, and the Shudras from his feet. The Moon was born from his mind, the Sun from his eyes, the heavens from his skull. Indra and Agni emerged from his mouth.
+The parallel to Norse Ymir is often[1] considered to reflect the myth's origin in Proto-Indo-European religion.
+# Prakrti - material or matter. It is unconsciencous and has no cause itself, all prevading, eternal. Prakrti or Prakriti or Prakruti (from Sanskrit language) means "nature".[1] It is, according to the hindi, the basic nature of intelligence by which the Universe exists and functions. It is described in Bhagavad Gita as the "primal motive force". It is the essential constituent of the universe and is at the basis of all the activity of the creation.[2] It is composed of the three gunas which are tendencies or modes of operation, known as sattva (preservation), rajas (creation), and tamas, (destruction) [3] Sattva encompasses qualities of goodness, light, and harmony.[4] According to the Yoga Vasistha, people who are of a satvic nature and whose activities are mainly based on satva, will tend to seek answers regarding the origin and truth of material life. With proper support they are likely to reach liberation.[5] Rajas is associated with concepts of energy, activity, ambition, and passion; so that, depending on how it is used, it can either have a supportive or hindering effect on the evolution of the soul.[6] Tamas is commonly associated with inertia, darkness, insensitivity.[7] Souls who are more tamasic are considered imbued in darkness and take the longest to reach liberation.[8] Prakriti is closely associated with the concept of Maya within Vedic scripture.[9]
+Mulaprakriti can be translated as "the root of nature" or "root of Prakriti";[10] it is a closer definition of 'fundamental matter'; and is often defined as the essence of matter, that aspect of the Absolute which underlines all the objective aspects of Nature.[11] While plain Prakriti encompasses classical earth element, i.e. solid matter, Mulaprakriti includes any and all classical elements, including any considered not discovered yet (some tattvas.)[12]
+Devi Prakriti Shakti in the context of Shaktis as forces unifies Kundalini, Kriya, Itcha, Para, Jnana, Mantrika Shaktis. Each is in a chakra.[13]
+Prakriti also means nature.[14] Nature can be described as environment.[15] It can also be used to denote the 'feminine' in sense of the 'male' being the purusha.
+According to the ancient vedic science of Ayurveda, the three gunas (sattva, rajas and tamas) as they pertain to the human physiology are called doshas: kapha, pitta, vata.[16] The balance or imbalance of these doshas defines the prakriti or nature of one's body.
+
+These two never tough each other and this is what gives the fundamental dualism.
+
+These two things are fundamentally different and so don't have the same cause. The subject and object are fundamentally different. This includes the mind as mind is matter -- in a subtle manner -- but still matter. This is are real things, and you cannot undermine it by saying that it is some effect of the mind. This points back to cyclical time.
+
+			The Three Gunas of Prakrti
+Three intertwined elements, that serves as a simple model. These are ways to view the world as elemental properties.
+# Suttva - Clear, lucid, bright, bouyant etc. bucket quiet and still
+# Rajas - Movement energy, activity, passion, pleasure/pain bucket frothing and stirred
+# Tamas - Darkness, inertia, passivity, apathy, heaviness bucket with mud
+
+The gunas can be mixed so eating veggies is suttva, but drinking liquor would be tamas and rajas.
+
+When Purusa and the gunas touch there is a disturbance in their equalibrium including gradual differentiation that gives rise to the world. The first of these things is Buddhi (or Mahat). Buddhi generally means the intellect -- but not individual intellect, but rather a seed of knowledge. Decernment identification are properties of it and so it is considered sattvi. From the Buddhi comes Ahamkasa (ego) sense of mind and a self awareness, the notion of ``I''. From that come multiple things:
+# Manas - mind
+# Sense Organs - seeing, touch etc.
+# Organs of Action - Grasping, speaking, procreation, excretion etc.
+
+			Tamasic Ego
+Has two major elements:
+# Subtle elements - sound touch taste form smell.
+# Gross - space air, fire, water, earth
+
+Ultimately we are manifesting of a combination of Prakrti and Purusa, and it exists in all of us to one extent or another. There is a difference between your consciousness and mine, although it does all come from one place. How does this occur? My Purusa is spawned from the original Purusa.
+
+There is some connection here of subtle mind and gross brain, and a scientist could see some changes when I learn but they are interdependent, but separate, yet somehow they interact. It is different from Cartesian dualism in that in C-Dualism, there is a difference between mind and body, but this goes much farther in the sense that it involves something more fundamental than mind.
+
+def:Dichronic - of or pertaining to the changes in a linguistic system between successive points in time. Evolution.
+
+def:Synchronic - having reference to the facts of a linguistic system as it exists at one point in time without reference to its history. Map of experience.
+
+All this has to do with intellect being an object of consciousness and the causality of the process is a process of evolution.
+
+	Sanskrit Pronunciation
+Sanskrit is purely phoenetic. The alphabet moves phoenetically as you go through the letters -- from where the sound originates -- unlike English.
+===Lecture from  Thursday January 27, 2011
+	Yoga
+Comes from the $\sqrt{yuj}$ - to yoke or bind. This refers to taiming your mind. The Sutras date to $3^{rd}$ C.E.. Patanjali is the incarnation of a snake that the creator slept on (in the eternal ocean of milk... like you do). It involves basic ethics of life, addressing obstacles etc.. There are 195 Sutras, divided into four chapters:
+# Cessation of the mind and thoughts -- state of pure consciousness.
+# Eight limbs of Yoga - various parts of the practice
+# Mediation and magical powers, or siddhis.
+# The ultimate goal is explored -- spiritual freedom.
+
+The goal is to make thoughts cease, from within a state called \textit{samadhi}. In this state you are able to break your self from your \textit{not} self.
+The function of the mind is sleep, memory, valid judgement, error.
+		Means of Knowledge (page 32, Yoga)
+- Error is false knowledge has no objective basis and invovles an subjective thought of the mind.
+- Sleep - based in the mind where no thought takes place. Dreaming and deep sleep.
+- Memory - recollection of objects
+
+		Samskara
+Any experience you have leaves a trace as an impression. This infers that thers is a pre conscience so that it is like garlic, it stays with you. In this way it is like a theory of the unconscience. If you have a thought that you don't know where it comes from, that is samskara. Deep sleep, conceptualization, reading -- everything creates this samskara.
+
+The relationship of samskara and the mind is a reciprocal loop. Thought of like seeds, they will eventually re-manifest themselves later, creating new impressions adn therefore new seeds and or action. If you you are thwarted in this action it can increase the production of samskara, like an addiction or craving. This creates a mind that is constantly in motion from one thought to the next.
+
+If you watch them you can see patterns emerge over and over because of the samskara. This creates ruts that eventually are so deep that we can't see over them or identify them.
+
+Our minds are like rivers in which we don't really have control, so when a samskara emerge that say, causes us to get mad about being cut off in traffic, we get on this wheel that forces us into a cycle.
+
+So how do get in control? Mindfulness, detatchment and an intention to let go. This leads to the theory of renunciation, because the more you have the more you have to worry about. This all fills up your mind. Think about how much time we spend thinking about wishing for, gaining, keeping and protecting.
+
+		The Eight Limbs (Astanga) of Yoga
+			Yama -- restraints
+# Controlling action. Ethical disciplines\footnote{Non-violence, or ahimsa being a primary concern. Avoid negative acts -- not just in action, but in intention as well. Also this includes self criticism is a form of violence.}.
+# Celibacy - Sexual desire is considered the hardest to control, and if you can do it, all other desires are easy. The thought is that having sex would actually deplete energy from the struggle for liberation.
+# Truthfulness - Speaking the truth
+# Not Stealing
+# Not Craving or grasping
+
+			Nijama -- discipline
+# Purity
+# Content with what you have
+# Austerities - fasting, living in a cave -- intense practices. Developes tapas or heat.
+# Self-study - study of textual authorities
+# Devotion to the Lord -- a yogic diety, and there is not a lot of info on who or how.
+
+			Asana -- postures
+This practice involved becoming flexible enough to sit in mediation. Contempary.
+
+			Pranayama -- breath control
+Body breath and mind are intimately connected. If you get excited, your breath quickens. The breath mirrors what's going on in your mind, so the reverse is true too -- changing your breath will change your mind.
+
+			Pratyahara -- meditation (withdrawal)
+
+===Lecture from  Tuesday February 1, 2011
+Think of a turtle withdrawing into your shell.
+
+Our minds are powerful tools, and meditation to train your mind to be useful and honed. The mind should be like corn oil -- smooth and one coherient stream. Not like ginger ale. It is focused and centered. Meditations come in many forms including focus on one thought, mindfulness, visualizations, mantras (uttering a phrase)\footnote{Some devout practisioners have a problem with the length that you pronounce `ohm' because they see it as grammatically incorrect and leading to an erosion of the language -- they are thinking of preserving these teachings for hundreds of years.} Meditation is a way to train the mind to hold a stick, like an elephant that holds a stick in it's trunk and can't pick anything else up. There seems to be a playing with time like a race car driver who sees things happening much quicker, or some things seem slower. There is also a notion that we are \textit{changing} our minds because it is a lot more plastic then first believed. See \href{http://en.wikipedia.org/wiki/History_of_hypnosis}{hypnosis} also.
+
+			Dhanana -- concentration
+Like mediation, but much deeper -- moving toward a one-pointed mind.
+
+			Dhyana -- mediation
+This is where the mind stays with just one object. This is to note that the mind is always just focused on one thing at a time, but now it has a dimension of sizable proportions.
+
+			Samadhi -- contemplation
+Cessation of the mind. This is where we kind of disappear into mystacism. The object of mediation is so strong that the object of the meditator collapses into the experience itself and where there is ultimate collapse there is parushia. It is the total obsorption of the mind. There are stages associated with
+samskaras and the level of samadhi
+# Gross realm (1.41-6 Pg. 40)
+# Subtle realm
+# Bliss samadhi
+# `I' sense samadhi -- you are very close to the essential self.
+# Purusa  the complete negation of the mind -- it is the highest stage, and is unintentional and objectless.
+
+These final goals are discussed in the final chapters 4.34 and 3.55. This final stage cuases the mind to stop and there is a complete separation of parushia. Kaivalya -- 4.34 3.55.
+===Lecture from  Thursday February 3, 2011
+	Advaita Vedanta
+
+def:A -- not
+
+def:dvaita -- duel
+
+def:Vedanta -- end of the Vedas Upanisada are found at the end.
+
+		Human Pursuits
+Everything we do can be slotted into three types of activities: Security, Dharma-ethical life, Desires\footnote{Once you achieve Dharmic life you start to persue desires.}, but an additional human pursuit of Moksa-liberation.
+
+Vedanta was used as an instrument to develop a national identity, and the idea that everything is one comes from the Vedanta philosophy. The texts of the Vedantas are:
+# Upanisads - root texts
+# \href{http://en.wikipedia.org/wiki/Bhagavad_Gita}{Bhagavadgita} - a theistic texts.
+# Brahma sutras written $1^{st}$ BCE - $2^{nd}$ CE - these texts support the Upanisads but also refute the opposing schools.
+
+		Sankara
+The most influential philosopher in India and is famous for writing commentaries on the three texts above. He lived in $7^{th}$ CE. In his early years he memorized the Vedas, asked his mother to renunciate and then travelled around India by foot debating everyone -- and winning! He lives to his early 30s by which he has set up many monastaries. The monastaries are the most othadox.
+
+		Ramannja
+Another philosopher that is a qualified non-dualist.
+
+The texts are focused on Self within relation to World and God as a triad. The birds eye view is: look at the ocean, all the waves are different. But the ocean is all one and the waves are just part of the ocean (God). But what is the unerlying reality is that the ocean has form as does the waves, but ultimately there is only one thing that is water. This makes the notion of God collapse because you are no different from God like the ocean is no different from the water. But the metaphor breaks down when we talk about the temporal distance of waves.
+
+			Brahman
+Which is the formula of truth -- ultimate reality or principle of non-duality -- or the water of the ocean. Atman is teh idea of self or in our analogy, the water of the wave. There is a collapse of consciousness and matter -- there is no distinction, though Brahman / Atman is:
+- not an object
+- limitless
+- infinite (later)
+- has no attributes
+- timeless
+- not subject to space
+- beginningless
+
+The key to Vedanta is this Brahman is the Atman RIGHT NOW. This in contrast to some schools that suggest that you have to gain it or work for it. This is problematic because of the causality of the idea. The action of attainment is not related because there is no amount of action that you can do that will have infinite results. The problem is ignorance in that you don't realize this. Action can't do it and knowledge won't do it either, but more on that later. You are not an individual but part of this non-dual principle of Brahman.
+
+			The Problem
+We see a different reality -- how do we explain that -- that there is something that is infinite part of you.
+
+			Brahman and World
+Should we affirm or deny the reality of the world. If Brahman is absolutely true do we need to get rid of it -- and if we do what happens? Your ignorance has two parts:
+
+# veiled -- you don't see the rope as a rope.
+# projection -- you see the rope as a snake.
+
+How do we know what is real? You come back to the same world -- there is a continuity of waking, and this continuity becomes a marker. That which persists should be taken as more real than that which changes. What they come up with is that which cannot be negated in the past, present or future. Chapter 6 has an important example to look into (early chapter). You are a potter and shape clay into a pot, then a plate then back to a lump again. The question that the Vedantan will ask is: ``What is the relationship between substance and form?'' and what is real, is the plate real? We can't dismiss the pot or plate but where is the pot when there is a lump of clay. The pot doesn't exist -- only potential. The `form' doesn't exist until you change the `form' (lump of clay), so what does persist? Only the clay persists while the forms change. Key: substance has more reality than the forms it takes. Like waking and dreaming, the forms don't have a continuity -- like a dream, but the clay does -- like waking. The clay is like the past the plate and pot is the present and the clay is the future.
+
+			The Reality of the Form
+You can't say that the pot is real, nor can we say that it is non-existent (like a square circle).
+# Form depends on substance (but the substance doesn't depend on form).
+# All form is indeterminable, can't be determined to be absolutely real or unreal.
+
+Since everything we can grasp are forms, this is profound.
+
+def: Mithya -- dependance relationship.
+
+Shunkata extends this idea to \textit{Maya}, which is generally translated as illusion -- mithya. There is some substance that underlies the world that is in constant change but Brahman stays the same. There is a constant cause, but the effects of it are changing.
+
+Another example of a system that when you inquire into it it falls appart is Geometry. The geometric world is made of points and everything in it is made of points, but points have no dimension or substance -- so how do they give rise to the geometric world. What is the essential component of the clay, well it is made of rock dust, which is made of .... and we come down to atoms. The logic is that anything that takes form can be split in have and thus an infinite regression. This leaves the Vedantas in the position of having to identify existance but you cannot find the substance of form.
+===Lecture from  Tuesday February 8, 2011
+	Brahman as Existence
+According to Sankara, the clay is more important than the forms it takes. But breaking down a nut further and further we fall into a regression, everthing has parts. Then we fall into a problem where we get lower and lower where there is not anything there. He is saying that there is existence that we attribute form to and the problem is that the form isn't bound by space. He feels that it is immanent and transcendent.
+
+Topic: Asscent to form -- from the ground up to existence as Buddha would have thought.
+
+We have a problem with semantics. Space is non-dual, but we insist on dividing it up so we can reference. Brahman is existence that is a sub-stratum to all existance and gives existance to atoms and time. Existence occurs in a unit of time, but a minute can be subdivided, leaving you with the past and a future no matter how small that moment gets. Sankara says that there is only the present. His argument is where is a past event? In a memory, but the memory is occuring now. The effects of the past are here but it is in the present too. The future is an invention of the present moment. There is not time that captures the existance of form it is the other way around that Brahman makes form a function of existance.
+
+He is pulling existance out of causality by saying that existance is not subject to any properties of form.
+
+		Problems For The Vedanta
+6.4.2 Chandogya Upanisad talkes about how can something come from nothing, how does existance manifest?
+In the beginning, son, this world was simply what is existent --one only, without a second. Now, on this point some do say: ``In the beginning this world was simpley what is nonexistent --none...
+
+			Two Levels of Reality
+# Form
+# Content - Sat - existence.
+Absolute existence $\Rightarrow$ absolute reality - World / form is empirical reality. There is formless existence.
+
+Sankara says that when you look at the world you can deconstruct form to non-existence, but really the world is not an illusion, but \textit{does} have existence but it is removed from the form. The world is a dependent reality.
+
+			Orders of Reality
+# Absolute
+# Empirical
+# Subjective - dream, but doesn't have a causal property that jumps the empirical subjective boundary.
+# Non-existence - like a square circle.
+
+He says that you can collapse the empirical reality into absolute reality. A classroom is just a conglomeration of parts into a particular pattern that we call ``classroom''. The problem is what happens when you inquire into what it is and you end up with just existence. \begin{quote}Form is conent, but content is not form.\end{quote}
+He is not dismissing the world because we can ask what is the difference between this space and that space of say a bottle -- I can still take a drink.
+
+How can you exist if you can apply the deconstruction to yourself, can you know Brahman? If you don't know what iron or fire is then you see a hot iron ball there is a phenominalogical experience of the hotness iron-ness that is one thing, later we learn to deconstruct it into hot and iron. Well if you do that for yourself, you will achieve liberation.
+
+			3 Parts of Brahman
+# Sat - existence
+# Cit - consciousness
+# Ananda - limitlessness (sometimes problimatically called bliss.)
+
+\begin{quote}That (Brahman) is infinite, and this (universe) is infinite. The infinite proceeds from the infinite. (Then) taking the infinitude of the infinite (universe), it remains as the infinite (Brahman) alone (Tr. Madhavanada, 1993)\end{quote}
+===Lecture from  Thursday February 10, 2011
+	Sublation
+Negation, with reference to negation of form in time and space -- when one thing has a greater reality than another (like the rope and snake).
+
+		Cit -- Consciousness
+Kena Upanisad. We can never make consciousness an object. Consciousness is self evident, so your consciousness doesn't need to objectify itself because that is its basic nature. This is called \textit{self-illumination} or \textit{intrinsic reflexivity}. \begin{quote}Being immediately known without being an object of cognition\end{quote} or \begin{quote}``[The] capability of being called immediate in empirical usage while remaining at the same time the non-object of knowledge.''\\ \hspace{2.0 in}-- Citsukha\end{quote} The knowledge of an object and being aware of being aware are one-in-the-same. To know the object is to know that you know the object -- prior to any subsequent act of introspection (reflection) (you don't need to reflect that you know an object'). To know that you are conscience doesn't need another to confirm that.
+
+There is a sense that the mind is like a mirror in the way it reflects -- but that is false says the Yogi, because he believes that the mind is not tied to the physical or the components of the physical object.
+\begin{verse}
+\hspace{1 in}Which one cannot hear with one's hearing\\
+\hspace{1.25 in}by which hearing itself is heard--\\
+\hspace{1 in}Learn that that alone is Brahman,\\
+\hspace{1.25 in}and not what they here venerate.\\
+\end{verse}
+
+So consciousness is that which is known, but also cannot be known. The key is the immediacy of consciousness. It is always present, and part of your experience always. The search for yourself outside of yourself is flawed like the woman looking for her jewelry under a street lamp, but when asked where she lost it, she tell you she lost it in the house, but the power is out and so I'm looking here.
+
+You are already consciousness which is Brahman, so there is not need for the drive to become whole and complete, you already are. So it is not that you need to know Brahman, it is that you need to remove your ignorance of what Brahman is.
+
+In sleep there is an argument that consciousness might not exist, but there was no object to grasp in deep sleep. This is problematic because it suggests that it has finite properties and an end and beginning. The rescue of the idea is that you couldn't have known consciousness in the first place.
+
+Read the article on the web site.
+
+Where all this leads is an identification of consciousness and existence, how do we deal with cit -- consciousness and sat -- existence.
+===Lecture from  Tuesday February 15, 2011
+	Cit == Sat
+If your consciousness is pure existence, how can it be separate form any other existence. Consciousness is the only invarible that is existence.
+
+The \textit{fourth} that is talked about AKA Turiya underlies waking, dream and sleep. It is the sence of self that underlies all feelings of existence. Om = Brahman (you, I). Atman and Brahman can be used interchangably and are equivilant, but Atman usually is in reference to self's consciousness and Brahman with reference to the 'universal'.
+
+	Sat-cit-ananda
+Ananda refers to bliss but really means limitlessness. Once you realize the limitlessness of your existence you have freedom within yourself. This is the origin of love and compassion. Bliss is never in an object it is more like the sun's reflection on the water, the water may ripple but it doesn't effect the sun which is the self.
+
+	Maya
+There is a mystery of awsomeness of the world, because of all of its richness -- and this is \textit{Isvara}. I can't negate the world without negating yourself. Even after liberation you still interact with the world. The mystery is how is Brahman which is unchanging gives rise to the changing world. It is sometimes referred to as the universal ignorance, because it is in a way it is a universal projection.
+
+			Anti-ritualistic
+The vidantra would say that ritual will never lead to the knowledge of Brahman. Ritual is reserved for inner purification. There is an order which is outside of your control which is Isvara. This is to give you a sense of satisfaction or comfort, but not passivity.
+
+
+
+	Exam
+See review. Darsana is translated as seeing or philosophy, there are six and Buddhism is one, but all lead to a path of awakening.
+===Lecture from  Tuesday February 15, 2011
+
+	Study Notes
+		Brhadaranyaka Upanisad -- FIFTH ADHYAYA
+
+			FIRST BRAHMANA
+1. That (the invisible Brahman) is full, this (the visible Brahman) is full. This full (visible Brahman) proceeds from that full (invisible Brahman). On grasping the fulness of this full (visible Brahman) there is left that full (invisible Brahman). Om (is) ether, (is) Brahman. 'There is the old ether (thev invisible), and the (visible) ether of the atmosphere,' thus said Kauravyayaniputra. This (the Om) is the Veda (the means of knowledge), thus the Brahmanas know. One knows through it all that has to be known.
+===Lecture from  Tuesday March 1, 2011
+	Mystical Experince (ME)
+How does it function, causality, how do they arise? These experiences are induced by a number of methods, sweat lodges, drug induce.
+
+		Kinds of Experince
+- Experince of Oneness
+- Absolute reality
+- Visions and Trances
+
+		Questions ME Raise
+# How are ME Caused or Formed? Epistemological status of MEs? Validation of ME? Are they veridical? Problems with ME: they are self validating, and personal.
+# Interpretation and analysis of mystical literature. Texts are primary data. Why do mystics compose such texts? Relationship between text, ME and Object?
+
+Your relationship to the texts changes the validity.
+
+		Perennial Philosophy
+Philosophers talked about the \textit{universal core}, which claimed some aspect of experience that crosses all ME. They also believed that the experience is basis of religion. Religions differ because in the post experience the subject, in retrospect, layers on his or her own cultural biases and interpretation on the experience.
+
+Across religious boundaries though there are similar experiences: a sense of oneness, a sense of loosing your sense of self and merge with a greater entity transcends the bounds of expression, etc..
+
+Perennialists look at this and say ``since all religions document the experience there must be some validity''.
+
+		Common Conclusions
+# The world is a manifestion of a transcendental ground.
+# You can have immediate knowledge of that ground.
+# Transcendental self identical with ground
+# This is the purpose of life.
+
+The Big assumption they make is that language is descriptive and post experiential, and this gives rise to different "experience". Is there anything that is across the board for all religions?
+
+The criticism of this is that the Perennials with take fragmemnts of experience from different religions and cherry pick ideas that prove the idea they set out to prove.
+
+		Constructivism
+From this rises the question how \textit{do} you extract the experience that the experience talks about. In the 70's the \textbf{Constructivists} arise. They pose the question: What is the role of language? Is it interpretive or evokitive and where does it come in the role of the experince itself.
+
+``There is some evidence that the more linguistic tools you have, the more complex solutions to problems you are capable of.''
+
+The concepts that we bring to the teble effect how we experience 'experience'.
+
+All experinces is formed by the beliefs and mystic backgroung the subject brings to them -- or Worldview structures and controls perceptions and beliefs. Language determines experience or the concepts stands between the perceiver and object -- as a filter -- and you cannot negate the filter.
+
+		Stephen Katz
+There are no pure unmediated experience. All experience is go preprocessed. Not only do you have a filter constructing the experience but later you have a second filter that interprets the experience, and further models/expectations generate ME. The ME is just an interpretation of your expectations and beliefs.
+
+What comes out of this is the pluralism thesis. Different teachers give different experiences to their practitioners. Katz says the devil is in the details in that the ideas are the key -- the differences in the texts, not like the Perennialists who want to jump to the bottom line of a universal experience.
+
+			2 Pillars
+# Pluralism
+# Constructivism (contexualism)
+
+The problem for the mystic is that he can't admit that they are effecting the experience becaue they're mysticism belief is that they are communing with an infinite or Brahmanian experience. For them they pull their experience out of the question by invoking that it can't be part of any philosophical discourse. The mystic claims I had an ineffiable experience and is paradoxical, it is evokitive for the reader of the mystic and shapes \textit{her} experience to conform to that description.
+
+Not everyone agreed and a school arose that was called the Essentialists (Decontexualists).
+
+		Robert Forman
+Wrote a book called \textit{The Problem of Pure Consciousness}, which critiqued the work of Katz and can be thought of as neo-Perennialists. He focused on the ``Pure Consciousness Event'' where the mind is awake but there is no content to the experience. There is no language in this experience and therefore cannot be produced by language. You are tapping into the inate nature of yourself -- deconstructing of any mediated language based concepts. He doesn't say that this is the goal of religion. How could language conceptualize a state that evades concept in the first place. Another counter argument to Katz is what about people that have no interest in mystacism and have a mystical experience, or how do you account for people that have experiences counter to their expections.
+
+The Katzians say the PCE is impossible in the first place.
+===Lecture from  Thursday March 3, 2011
+	The Buddha -- One Who is Awakened
+Siddharta Gautama born in Lumbini, and grew up kapilavastu. He lived from 624--544 (SriLankan reference) but the modern thought is 490--410 BC. His father, Suddhodana, and his mother M\={a}y\={a}. His mother has a dream that a white elephant enters her side. She gives birth in a tree grove. The child immediately walks seven steps, he has a snail curl with a uni-brow. His mother dies a week later from birthing complications. A prediction is made that the king's son will conquor to the world, either through wisdom or through kingship. At 16 he marries Yashodara and has a son name R\={a}hula.
+
+He begins to become curious about what life is like outside. He decides to travel outside on 4 excursions via a carefully guided tour of the city. On his first trip he sees an old man, the second a diseased man, the third a corpse, and on the fourth trip he sees a mendicant (renunciate). The chariateer tells Siddharta about each and has a penetrating insight into his life at the age of 29 -- and renounces the world.
+
+As a parabol, the palace represents self-delusion and imprisonment obsticals of enlightenment. He escapes the palace and lives in the forest. Along the way he meets many teachers. He first studies with \={A}r\={a}da Kal\={a}ma who teaches him a technique called the sphere of nothingness which is how the mind transcends thought. Next Udraka R\={a}maputra who teaches him the sphere of neither perception nor non-perception. He experiences these teachings but finds that they are unsatisfying in that they don't address the fundimental problems.
+
+Next he playes with Asceticism in which for extended periods he would restrict his food intake in an effort to not accrue any karmic debt, debt that would be accrued by daily existence according to the Jains. In doing so he discovers that he cannot think properly without foood. From this he comes to the conclusion that there must be a middle way. This becomes one of the central pillars of Buddhism.
+
+He then sits and begins to meditate in an effort to reconnect with some subconsciousness during a single night beneath the boddhi tree. At first he sees all his past lives which is called the Jataka Tales, in which he realizes that the cycle of existence has no essence. In the second part of the night he gains a devine eye -- sees all beings -- their rebirth and karma. During the third watch of the night he analyses the real nature of the world. People are toiling and not finding the way out. During this time he conceives of the 4 noble truths, and the Doctrine of Dependent Origination. M\={a}r\={a}, the god of death, sends his daughters to distract him from his mediations because his MO is to keep us deluded. This is a parabol to our own minds.
+
+On the next morning he goes back to Sarnath and delivers his $1^{st}$ teaching to his five friends that practiced asceticism with him before he left. This was setting the wheel in motion (again)\footnote{It is thought that once the Buddha dies, his teachings go into decay until the next Buddha.}.
+
+The Budda teaches for the next 45 years and dies from food poisoning.
+
+		The Four Noble Truths
+# Duhkha -- Life is suffering - first seen in the vedanta. Suffering arises from our inability to hold onto what we want, everything falls apart, change brings pain. The Buddhists call themselves realists about the situation. The impermanence of life leads to separation suffering.
+# Trsna -- Suffering is caused by craving. Craving leads to attachment. The cycle of craving, attaining, losing leads to attachment, a desire for existence, sensual pleasures, self harm through negative desires.
+# Nirvana -- Cessation of suffering, suffering has an end.
+# Truth of the eight-fold path. Gives insight to cognitive function.
+
+			The 8-Fold Path
+# Right view -- faith enough to step into it.
+# Right resolve -- developing the right attitudes like compassion, friendliness, free the mind of cruelty.
+# Right speech -- speech has power so don't  gossip or use strong speech or too much speech.
+# Right conduct -- don't kill and other basic rules
+# Right livelihood -- don't become a butcher, slave trader, arms dealer.
+# Right effort -- keeping on the path.
+# Right mindfulness -- being present in the moment.
+# Right meditation -- regular and dedicated practice.
+
+		Dependent Origination (Pillar)(pratitya-samutpada)
+Everything that arise does so on the dependence of other factors -- everything is in flux. This is known as the chain of causation, which leads to a state of impermanence. (USE THIS FOR ESSAY) Everything is changing as a result of interaction within a complex web. See readings. Reminds me of the particle anti particle existence and decay flux that Feinman said was a waste of time.
+
+
+===Lecture from  Tuesday March 8, 2011
+		No Self
+Refered to as an\={a}tman. Buddha refers to a person as a bundle of aggregates -- there is some sort of notion of skandha(s) which are components that make up the person, of which there are 5 aggregates:
+# Form - physical body
+# Sensation (feeling) - pleasant/unpleasant and neither pleasant or unpleasant.
+# Perception - any perceptual content like 'blue' or 'thunder', sometimes reasoning is placed here too.
+# Predispositions/mental formations - (samskara) -- tendencies, habits, disposition and anything that makes up your character also hunger (desire), memory, character etc..
+# Consciousness - The stream of consciousness.
+If this list is exhaustive, then where does the 'I' reside in this list. You will also notice that the list items all are transitory. When we talk about a self, there is some suggestion that there is some sort of permanency.
+
+The notion of the stream of consciousness is a constant flitting of images on a screen that create a sense of continuity. The Advictan would say yeah, but what about the screen itself -- there is a sense of permanency there. Buddha says no. Even identity is a fiction. We are assigning an identity to an aggregate of parts that creates a flickering image of self.
+
+The argument goes -- if there were a self it would be permanent, and there is no more to a person than the basic skandhas. The skandhas are impermanent and are subject to destruction, decay, change, therefore there is no self. The sense of self is a convinient designator.
+
+Buddhism is s form of reductionism in that there is no over arching executive of the parts, we forget that we don't have a self, we construct a self and spend our lives suffering to suffer this 'self'. If there is no self what craving is there to have for that self.
+
+The Questions of King Malinda
+
+How do we explain continuity? It is like a candle flame, the flame seems the same thing but it is also illusionary in that the wick is changing the plasma of the flame is changing -- there is no specific unchanging part of the candle flame.
+
+		Rebirth
+The problem with rebirth is that there is radical change. Buddha says that there is no transmigration of something that moves from death to body.
+
+def: Suk\d{s}ma \'{s}ar\={i}ra -- the subtle body (or loosely soul).
+
+This brings up a bunch of questions -- what is clinging to the idea of self? How are actions attributable to me? How does karma apply to a person from birth to birth.
+
+		Skillful Means
+Offering the teachings in a way that is useful with there they are at right now. If you set a camp fire and it burns a field you can't claim that you are not guilty becaue the fire you set was a camp fire and the fire that destroyed was a crop fire -- there is some sense of continuity of experience.
+
+
+===Lecture from  Thursday March 10, 2011
+		Rebirth
+You are a flame, and if you light another candle the flame is different but from the same source... kinda.
+
+		History
+Buddhism splits into two groups
+- H\'{i}nay\'{a}na -- ``Lesser vehicle'' $\Rightarrow$ the goal is to become enlightened or become an arhat.
+- Theravada -- Tradition of the elders. Texts written in Pali. $\Rightarrow$ the goal is to become enlightened or become an arhat.
+- Mah\={a}h\={a}na ``Greater vehicle'' developed some time between 2 BCE -- 1 CE. $\Rightarrow$ the goal is to become a Bodhisattva, or work for the liberation of others and will put off their enlightenment for the benifits of others.
+
+Equates to ``H\'{i}nay\'{a}na is like a bike and Mah\={a}h\={a}na is more like a bus that way [you can carry more people]''.
+
+The difference between the lesser and greater is the method of practice one being othadoxy and orthaproxy. This is more about monastic law, \textit{Vinaya} like can you beg for food more than once a day, what kind of cloths can you wear.
+
+		N\={a}g\={a}rjuna - 2--3 CE
+Buddhist that is known for his undercutting of other groups in arguments. He systematizes the Perfection of Wisdom texts. He also creates a doctrine of \'{S}\={u}nyat\={a} or emptiness, called Mulamadhyamaka-K\={a}rik\={a} the Fundamental Verses on the Middle Way. He contiually tries to negate other views rather than construct his own.
+
+He brings the ideao of dharmas which are like atoms or impartite real parts -- an idea that means \textit{Svabh\={a}va} or inherent existence, Intrinsic nature/essence, or ``Own-being''. To have this quality you must not be dependent on another or something else. This is how they stop the infinite regression. Only these things are ultimately real -- even though they may be transient, within a moment they are real. N\={a}g\={a}rjuna argues that there is no svabh\={a}va. He is not saying that things don't exist, but they don't have anything underlying it.
+
+He talks of Svabh\={a}va in two ways:
+# Essence Svabh\={a}va - specific characterizing property that helps distinguish an object from another like the heat of the fire -- an invariable essential property.
+# Substance Svabh\={a}va - something that doesn't depend on anything else. Not in a relationship between cause and effect. (No example given).
+
+What can you find that is not dependent on something else. Part of dependent origination, everything is relative to each other, and therefore there is no such thing as Svabh\={a}va. If you take the letter `A' we imbue a certain reality to it, but it is just a series of strokes that don't have that reality in-and-of-themselves. He is rejecting Svabh\={a}va. There is not firm foundations to the world -- There isn't even causality. His arguments are frequently rely on infinitely dividing time and space to express that, for instance, motion is not taking place in time or space.
+
+If there really were something called Svabh\={a}va it cannot be a product of causality, because it has intrinsic nature -- it can't rely on some previous condition to exist. He thinks that cause and effect can't overlap in time, but if that were so, then where does the notion of \textit{inherence}\footnote{ (n) inherence, inherency (the state of inhering; the state of being a fixed characteristic) "the inherence of polysemy in human language"} come into play.
+
+Emptiness is the only real thing or the lack of Svabh\={a}va is the only true thing -- the truth is that there is no truth.
+===Lecture from  Tuesday March 15, 2011
+	Yog\={a}c\={a}ra
+The mind\footnote{Impressions (Cittamatra) or consciousness (Vij\^{n}aptim\={a}tra) only.} only school. Founded by Vasubandhu and Asanga. Is a form of idealism (or Realism later.), in which nothing exists except for mental things. It comes from the point of view that the intrinsic nature of mind is such that we can't claim that there is something outside of our own minds. Here we must think again of some sort of fundimental dharmas.
+			Realism
+# Direct Realism -- there is a concrete realism.
+# Representationalism -- we can only know the image of something that is brought to us by our perceptions, we think that we know this reality because have this image from our perceptions. We infer an object because we perceive it but there is a sensory mediator between you and the actual image. If that is true then why should we infer an external world ergo \textit{idealism}. Vasubandhu says `` it is like looking at the moon with cateracts and seeing hairs on the moon.'' In other words, we can be fooled by our perceptions to think that the world is represented by our senses.
+
+\begin{quote}Consciousness is a flow of momentary states each of which are dependently originated.\end{quote}
+
+Apparant realities are arising objects of consciousness -- object and consciousness arise simultaneously, and so are inextricably linked. This breaks duality in that subject and object are one-in-the-same -- arise within the same entity. If we can collapse this back into the seeds of its origins then duality evaporates. This collapse of subject and object is refered to as `emptiness' -- or the absense of difference between you and the object.
+
+So things are empty but have intrinsic nature (svabh\={a}va).
+
+			Consciousness
+# Sight
+# Sound
+# Taste
+# Feeling
+# Smell
+# Mind
+# Tainted Mind
+# Substratum consciousness (\={A}laya - Vij\^{n}\={a}na or storehouse (grainary) consciousness) that contains these v\={a}sanas (seeds). When a seed comes to fruition it sprouts in to subject and object.
+
+			Trisvabhava
+The three natures.
+# Imagined nature - the way the world appears to us (common sense), division of subject and object.
+# Dependent nature - knowing that subject and object are constructed reality, or what you have when you strip away imagination. We see through the basic nature of difference of subject and object and if you can do that then the seeds don't arise anymore and you arrive at,
+# Perfected nature - a pure seeing of the true nature of things, no more interpretation or conceptualization of objects. This is where subject and object collapse.
+
+It sounds like solupsizm but it isn't. There are actually multiple mind streams. There is a distinction between waking and dream state.
+
+			Objections
+# Spatial-temporal-determinacy -- there are rules and pattern in which things arize. Why can't a seed arise in my mind so that I can smell bread.
+# Intersubjective Agreement -- in the case where we don't agree on reality like seeing a pink elephant which is a halucination or mistake, then something is wrong and we (the public) all agree.
+# Efficacy\footnote{Able to cause an effect.} -- when you eat a meal you are full, but in a dream not necessarily so. Halucinations my not have pragmatic results.
+
+
+===Lecture from  Thursday March 17, 2011
+			Impressions (V\={a}sanas)
+Caused by karmic seeds in accordance with causal laws.
+
+He is trying to convince earlier buddists that accept that the external world exists to accept the you cannot because it is based on images created in the mind.
+
+A way to explain agreement between multiple mind streams, with similarity of karma. He thinks that our karmic streams are so intertwined by experience it seems normal to us all.
+
+Movie: I <3 Huckabies.
+
+In buddhism there is an idea of hell realms where you go to be tortured to strip you of karmic debt.
+
+def:Preta -- Ghost in a hell realm.
+
+An external object can never be a unitary whole, it is a fabrication of atomic elements svabh\={v}a.
+
+If this is the quality of the world ie illusional, then there is no point in maintaining selfishness, or other bad habits that get in the way of developing mindfulness and compassion.
+
+def: Pram\={a}na -- Means or sourse of valid apprehension of knowledge.
+
+Two major pram\={a}nas:
+# Perceptions
+# Inference - vy\={a}pti or invariable concomitance\footnote{accompaniment: an event or situation that happens at the same time as or in connection with another.} (connection, universal relation). Coexistence of the terms in inference like knowing fire. Seeing smoke infers fire. Where there is smoke there is fire. Cause/reason mountain has smoke, proposition: there is fire on the mountain.
+# sometimes Testimony
+The difference is immediacy of the knowledge. Perception is your own source, inference would rely on things that can be infered from perceptions and testimony is what you learn from a Guru or trusted friend -- information that you have reason to doubt.
+
+			Inference Example
+# Proposition - premise to be proved There is fire on the mountain
+# Cause/ reason -  because the mountain has smoke
+# Universal proposition and example - wherever there is smoke there is fire.
+# Application - The hill has smoke which is associated with fire.
+# Conclusion - The hill is on fire.
+
+Kinds of inference:
+Comaparison - um well comparison.
+Postulation - conclutions based on learned knowledge like reading about a cappabara, then seeing one and concluding that it is a cappabara.
+Absence - how do you infer something that isn't there
+Word - Vedantic (revealed) knowledge. Problematic because the Buddhists don't believe in the Vedas.
+
+			Debate Motives
+There are three styles of debate:
+# V\={a}da - discussion, to discern truth the point isn't to win.
+# Jalpa - disputation - victory as an end.
+# Vi\d{t}a\d{n}\d{d}a - wrangling, not establishing your own position.
+
+
+===Lecture from  Tuesday March 22, 2011
+	Brahma S\={u}tras - by Vy\={a}sa
+		Memory
+Rejecting the Buddhists view, thought of as nihilist. The base of the arguemnt is based on memory. Memory is an example how this must be false. The agent of seeing and remembering is one and the same. To refute this says that it gives rise to the idea that one person can eat toast this morning but another remembers the event. Maybe this could come about throught similarity. This is to say that an object is like a finger nail, that is it changes over time but a year later I still recognize it as my left index finger.
+
+From Shunkata perspective you would not even be able to consider the possibility that one person is the same later, but you wouldn't be able to make the claim they are the same without some permanent agent to remember.
+
+		Causality
+If our body and mind is changing, what is it that stayes the same (like the clay and pot arguement). He says that the buddhists think that the cuase perishes at the moment of the birth of the effect. This means that someting comes from nothing. There is nothing that remains unchanging in the seed, the seed is destroyed, and further that the clay is destroyed when the pot is created \dots then existance could come out of anything and anything could give birth to anything, a pot could come out of a seed, but this doesn't accord with experience.
+
+Further is this were true then we would experience success should come even to teh indifferent people [2-27], and therefore people should attain liberation without trying.
+
+		Vij\~{n}\={a}nav\={a}da
+How can you argue that the world doesn't exist how do we give rise to existence; a pillar cannot be made of atoms because I cannot see the atoms so by extrapolation we can't see it either. We can extend this to dreams where we have an experience of externality -- Neil would be a figment of my mind -- and somehow the dream objects are based on things and events of the world. The mind can project external objects even though none exist.
+
+		From Handout
+You can't just say that what perceive doesn't exist. To do that is to say that I don't eat and don't get full from the event, but the rebuttal is that you don't have the perception of the object but mearly that you can't posit that you have anything other than the experience of being full.
+
+What really should happen is all your senses should point to the existence of an object not the negation of all world knowledge. [II. ii. 28]. Shunkata is saying that the pen is out there because the inferential processing of the pen interacting with the sense that is not accounted for in buddhism. Why would the pen arise in the first place in the mind of the idealist buddhists. The pen must exist prior to the moment you perceive it.
+
+Ved\={a}ntin is arguing against buddhism. He argues that you cannot deny the witness, cognitions are not innert in-and-of itself. How does one cognition know another cognition if it exists only from moment to moment.
+
+You cannot equate dream state and wake state. You wake from it. There is nothing but memory, so we need to distinguish between wake and sleep. The dream is dependant on the what happened in waking life.
+===Lecture from  Thursday March 24, 2011
+	Ny\={a}ya/Vai\'{s}eskia
+Epistemology or logical group headed by Gautama. It is the closest alignment of philosophy to our current world view.
+
+def: Ny\={a}ya -- study of current reasoning.
+
+		Beliefs (Their Antology)
+			Self
+- Distinct from body/mind
+- Body is a composite substance -- matter, it is the locus of action, locus of sense organs, locus of pleasure/pain brought about by objects
+- The self is inferred never known -- known through inference (and the Veda). There must have been an I in the past that desired mangoes that make me want to have mangoes now. So a sense of consistency.
+- Consciousness is a property of self (unlike yoga that is a requirement of self), adventagous property not essential, CS must be intentional, function is to make an object known.
+- The reject the notion that the self is self-revealing. (there is a connection between consciousness and the theory of knowledge.)
+
+This does not arise in out of a dissatisfaction of Buddhism, but rather grows out of Vedic (and so is Vedatic).
+
+	Vai\'{s}esikas
+Founded by Kanada. Visesa means ``particular''. There seven primative types called ``pad\={a}thas'' that are not things but attributes and qualities etc.
+			Example:
+You are driving and see a cow,
+# Substance - the cow is the substance
+# Quality - its quality is white and black
+# Action / motion - its swishing its tail and that is the action
+# Universal - Its universal is its cowness -- we recognise that there is something that relates its cowness that makes us classify it as a cow. This property does not have a spatial location and only manifests in the individual. The universal does not depend on an individual however, cowness exists as a universal even though there may be no cows. The grandest level is the Being.
+# Particualr / individuator - There is something about that particular cow htat makes it different
+# Relations of inherence - Called samav\={a}ya it is what connects the quality to a substance is the inherence -- connecting white to the cow -- something that is intrinsic to the cow, something in the atoms of the cow.
+# Absence / non-existence - The cow's great, great grandmother is an example of absence (assuming she is dead). There is different kinds of absence like having a pot, there was a time when the pot was absence. Another is that of the absense of colour in space -- space can never have colour.
+
+Different than the skundas, which are more sophisticated than those of Buddhism. Each of the above list can be broken down further into sub catagories.
+
+The are two types of substance:
+# Eternal - atomic substance that come as atoms of four different flavours, earth, wind, fire, water(?).
+# Non-eternal - compounded from eternal at their core -- not unlike our beleif that atoms make up an object of a pot, is made of atoms that have existed for all time.
+
+		Gods
+India is considered generally as theastic, but Hindus would be shocked by lack of focus on Gods in the past. Nyaya and Visesa are the most theastic of the four traditions.
+
+One thing that separates the Nyayaicas from the Buddhists is the relation of the parts to the whole. The Buddhists think that the heap of sand is nothing greater than the group sand particles. They deny any kind of universal cowness. The argument is that there is no cow but we still know what a cow is, the buddists would say that the cow is decernable because it is not everything else. The Nyaya would say that the parts are greater than the whole, the parts of the car are not all that great but organize them together in a certain arrangement that produces a functional aggregate that is very different from a random collection.
+
+Asatk\={a}ryav\={a}da -- a word that says that an object has dependancy on preexisting conditions, but the function and properties didn't exist in the preexisting form. Being able to carry water did not exist in the clay the pot is made out of. The clay has to be brought into a special realtionship together which is called intelligent cause.
+
+This leads to the conclusion by the Nyaya that the world must have been created by a creator to give stuff specific functions and properties. They believe in intelligent causes and the buddists to naturalistic causes. They say that there is a natural cause like the atoms of a pot. \={I}\'{s}vara is the concept of god.
+===Lecture from  Tuesday March 29, 2011
+	Review for Exam
+Emptiness -- Mah - lack of Svabhava 	yoga -- lack of subject object duality Sankara argues that the buddhists want their cake and eat it too in that they beleive the that the world is empty but you believe in the storehouse () but how can a storehouse exist if there is nothing exists.
+
+The Shun in shunyata means zero.
+
+
+===Lecture from  Tuesday April 5, 2011
+	Ethics In Indian Traditions
+In the original teachings didn't require rationalization of why you should be ethical. They just assumed that it was part and practice and not questioned. They don't argue ethics in an epitomological frameword -- they focus on obligitory actions and what is right and wrong. More of an explaination of how you become ethical through an inner process.
+
+		Three Schools
+# Utilitarianism - a form of consequentialism, what maximizes the good result or net value - most happiness cumulatively - all else is insignificant. Universalism / impartialism - all the people effected by the action, not focusing on the benifits to one group over another.
+# Deontology - deals with absolute rules, or duty, catagorical imperitives, rules that cannot be broken under any circumstances. ``It is your duty to speak the truth''.
+# Virtue Ethics - systemitized by Aristotle. What is the good of man, what are the traits that make you an ethical. How can I develop myself to emulate the people that I admire and why do I admire them. What are the traits that makes them praise worthy.
+
+		Dharma
+def:Dharma -- duty, law, principle, morality and right.
+
+Dealse with the rules of social interpersonal interaction, or in another way obligations to family and society. It is also thought of as a transcendant law which is manifest in the community and the harmony of the world. It is context sensitive.
+
+		The Four Pursuits
+# Dharma - Ethical
+# Artha - Wealth and security
+# K\={a}ma - Desires
+# Mok\d{s}a - Liberation, being the ultimate good, everything that doesn't lead to it are dismissed, and all that promotes it are promoted.
+
+Artha and kama drop away pretty quick when you make moksa a goal. Dharma will become the central idea to follow. Moksa could be also seen as utilitarianism.
+
+		Veda
+The ultimate authority for the word of how ethics are derived.
+
+		The Gita
+Set in the Mahabharata - (interpretation by William Buck).
+===Lecture from  Thursday April 7, 2011
+		Dharma as Social Obligation
+The four classes, or casts in India, or Varna
+# Brahmanas
+# Ksatriyas - worriors - to bring harmony
+# Vaisyas
+# \'{S}\={u}dras
+These is another classification that has to do with stages of life:
+# Student - duty to teacher and parents
+# Householder - to children and household - instates order in the world
+# Forest Dweller (on the edge of the village)
+# Renumciate - teaching or pursuing liberation
+
+All this to say that the duty of each class is contextual for a given situation and is not univerally obligitory, or conditional.
+There is some debate today about what the cast system originally looked like in ancient times, medieval times and today. It used to be that you could traverse casts, but today you are born into a class and that will never change. There are rules about who women can marry; marrying up can make you rise in class for your children, but a Brahmana that marries even a Ksatriya, the children will be Sudras.
+
+The cast system is based on the Gunas in that a person of a certain class will manifest as either / and sattra, rajas or tamas.
+
+This relates in the sense that there is a duty expectation for each class where sudras are labourors and ksatriyas are worriors.
+
+The idea is that you are not to do something with attachment to the outcome of your actions or expected results, because it blinds you to performing your duty in the right way -- not grudgingly.
+
+There is a sense with the Gunas that a dog is not capable of free will over their behaviour and so cannot accrue karma.
+
+The Gita acts as a practical guide for teaching us how to behave, because it is easy t recognize what we would like but harder to recognize what to do within ourselves. The Gita spends a lot of time explaining the difference of knower/doer split which leads to fragmentation of self and internal conflict, doubt, self criticism, low self-esteem and guilt. This leads to a mind that leads to a less efficient mind because of a lack of concintration. To do this requires will power.
+===Lecture from  Tuesday April 12, 2011
+	Environmental Ethics
+There is a sense that we sould involve ourselves in protecting the environment by not eating too much meat and even protecting plants. There is a notion of wholism that is evolved from a sense of our broader self as in \textit{``deep ecology''}, or the +gaia+, where we see all things within ourselves.
+
+Environmental ethics involves:
+- Intrinsic value -- indipendent from an end in itself
+- Direct moral standing -- you aught to consider the entity for its own sake -- plants, ecosystems have intrinsic value regardless of us.
+
+		Sameness Argument
+# All living beings are fundimentally the same as Brahman.
+# Brahman is intrinsicly valuable and has direct moral standing.
+# Therefore all living beings are valuable and have direct moral standing.
+
+			Versions of the Argument
+# \={A}tman Argument\\ - Every living being is the embodiment of \={a}tman\\ - \={A}tman is identical with Brahman.
+# Identity Argument\\ - Distinction between living beings and Brahman is unreal
+# Emanation Argument\\ - All living beings are manifestations of Brahman.
+
+		Problems
+# Value transfer - why should the intrinsic value of something, how does that transfer to the physical body? Does what embodies the \={a}tman have intrinsic value.
+# If everything is Brahman, there is no way to harm it.
+# Non-vacuity\footnote{Total absence of matter; emptiness.} - if everything is just one, how does that lead to a moral action. One must discriminate between good and bad, but how do you do that if everything has value or everything has no value.
+
+There is not a sense that philosophers are negating morality, but if you base it on Brahman, what do you disseminate what to revear if everything is Brahman. One way is to frame the quest on the empathy and compassion for other beings; promoting health and happiness for other beings. Life has intrinsic value and it should not be cut short.
+
+Tons of problems arise if we save deer at the cost of their overrunning an area, or if a forest is old and needs to be controlled burned.
+
+table:
+-
+Title | Description | Total
+-
+Item 1 | this should be centered | 23
+Item 2 | this should definitely be justified left | 4
+Item 3 | third item | 12
+-
+table:
+
+table:This is a Table With A Caption!
+-
+Title | Description | Total
+-
+Item 1	this should be centered	23
+Item 2 | this should definitely be justified left | 4
+Item 3	third item	12
+-
+table:
+
+
+code:
+public static void main( String[] args ){
+	for (int i = 0; i < 23; i++){
+		System.out.println("<html></html>");
+	}
+}
+code:
+
+Here ends the lesson.
+
+Oh and here is teh final entry about a +Automobile+, it has no relavence to this document though.
+
+Here is another article for test it is about +Share Point+ and it has a png image -- let's see if it downloads.
+
+fig:ohm.jpg
+The End
