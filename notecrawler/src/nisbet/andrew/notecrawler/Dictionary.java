@@ -47,7 +47,6 @@ public class Dictionary implements NotableDictionary
 	
 
 	/**
-	 * @param name
 	 */
 	@Override
 	public void readDictionary( )

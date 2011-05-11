@@ -166,7 +166,7 @@ public class DictionaryXML extends Dictionary
 	/**
 	 * @param ele
 	 * @param tagName
-	 * @return
+	 * @return String of text of the element that contains a tag of tagName.
 	 */
 	protected String getTextValue( Element ele, String tagName ) 
 	{
