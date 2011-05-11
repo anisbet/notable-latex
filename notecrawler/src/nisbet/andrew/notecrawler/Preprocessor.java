@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Vector;
 
 /**
  * A convenience class for opening the note file.
@@ -16,46 +17,53 @@ import java.io.IOException;
  * @author anisbet
  *
  */
-public class LetterOpener
+public class Preprocessor
 {
 	
 	private BufferedReader bReader = null;
 	private String fileName = null;
 	private String author;
 	private String title;
+	private Vector<String> packageIncludes;
 	public static final String AUTHOR_DELIMITER = "AUTHOR:";
 	public static final String TITLE_DELIMITER = "TITLE:";
+	public static final String INCLUDE_DELIMITER = "INCLUDE:";
 	
 	/**
 	 * @param fileName
 	 * @throws FileNotFoundException
 	 */
-	public LetterOpener( String fileName ) throws FileNotFoundException
+	public Preprocessor( String fileName ) throws FileNotFoundException
 	{
 		this.fileName = fileName;
-		File noteFile = new File( fileName );
+		File noteFile = new File( this.fileName );
 		bReader = new BufferedReader( new FileReader( noteFile ) );
+		this.packageIncludes = new Vector<String>();
 		try 
 		{
 			String line = null;
-			int found = 0;
 			while ( (line = this.bReader.readLine()) != null ) // this consumes lines with author or title and does not pass them onto the document.
 				// document calls the getAuthor method or the getTitle method when it requires these values.
 			{
-				if ( line.contains(AUTHOR_DELIMITER) )
+				if ( line.contains( AUTHOR_DELIMITER ) )
 				{
 					// don't pass this onto the document but set the author for a document to call at it's leisure.
 					// take all the text from the end of the delimiter to the end of the line.
 					this.author = line.substring( line.indexOf(AUTHOR_DELIMITER) + AUTHOR_DELIMITER.length() );
-					found++; // consume this line.
 				}
-				else if ( line.contains(TITLE_DELIMITER) ) 
+				else if ( line.contains( TITLE_DELIMITER ) ) 
 				{
 					this.title = line.substring( line.indexOf(TITLE_DELIMITER) + TITLE_DELIMITER.length() );
-					found++;
 				}
-				if ( found == 2 ) break;
+				else if ( line.contains( INCLUDE_DELIMITER ) ) 
+				{
+					this.packageIncludes.add( line.substring( line.indexOf(INCLUDE_DELIMITER) + INCLUDE_DELIMITER.length() ));
+				}
 			}
+			bReader.close();
+			// reopen file
+			noteFile = new File( this.fileName );
+			bReader = new BufferedReader( new FileReader( noteFile ) );
 		} 
 		catch (IOException e) 
 		{
@@ -101,6 +109,10 @@ public class LetterOpener
 				return ""; // consume this line.
 			}
 			if ( line != null && line.contains(TITLE_DELIMITER) ) 
+			{
+				return "";
+			}
+			if ( line != null && line.contains(INCLUDE_DELIMITER) ) 
 			{
 				return "";
 			}
@@ -165,6 +177,15 @@ public class LetterOpener
 	public String getTitle() 
 	{
 		return this.title;
+	}
+	
+	/**
+	 * @return Include statements that describe special packages the user may require for a document to compile.
+	 * Used by LaTeX documents.
+	 */
+	public Vector<String> getPackageIncludes()
+	{
+		return this.packageIncludes;
 	}
 	
 }

@@ -10,7 +10,7 @@ import nisbet.andrew.link.Link;
 import nisbet.andrew.link.LinkCrawler;
 import nisbet.andrew.link.LinkDictionaryXML;
 import nisbet.andrew.notecrawler.DictionaryXML;
-import nisbet.andrew.notecrawler.LetterOpener;
+import nisbet.andrew.notecrawler.Preprocessor;
 import nisbet.andrew.notecrawler.NotableDictionary;
 import nisbet.andrew.notecrawler.NoteCrawler;
 import nisbet.andrew.service.WikipediaServiceRequest;
@@ -28,7 +28,7 @@ public class Crawler implements NoteCrawler
 	public static final String defaultCharDictionary = "chardict.xml";
 	public static final char COLUMN_DELIMINATOR = '|';
 	
-	private LetterOpener notes = null;
+	private Preprocessor notes = null;
 	private boolean isVerbatim = false;
 	private int lineNumber     = 0;
 	
@@ -42,7 +42,7 @@ public class Crawler implements NoteCrawler
 	/**
 	 * @param openNoteBook
 	 */
-	public Crawler( LetterOpener openNoteBook )
+	public Crawler( Preprocessor openNoteBook )
 	{
 		notes          = openNoteBook;
 		linkDictionary = new LinkDictionaryXML( defaultLinkDictionary );
@@ -59,7 +59,8 @@ public class Crawler implements NoteCrawler
 		this.latexDocument = new Document( 
 				this.notes.getFileName(), 
 				this.notes.getAuthor(), 
-				this.notes.getTitle() );
+				this.notes.getTitle(),
+				this.notes.getPackageIncludes() );
 		// create the link crawler 
 		LinkCrawler linkCrawler = new LinkCrawler( linkDictionary );
 		this.latexDocument.writeHeader();
@@ -114,7 +115,7 @@ public class Crawler implements NoteCrawler
 	 * @param line from the notes
 	 * @return A String with the code words replaced with their LaTeX equivalent.
 	 */
-	protected String preprocess( LetterOpener notes, String line )
+	protected String preprocess( Preprocessor notes, String line )
 	{
 		StringBuffer lineBuff = new StringBuffer();
 		

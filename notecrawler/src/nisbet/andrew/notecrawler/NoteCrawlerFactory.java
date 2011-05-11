@@ -13,7 +13,7 @@ import nisbet.andrew.latex.Crawler;
 public class NoteCrawlerFactory
 {
 	
-	public static NoteCrawler getNoteBook( LetterOpener openNoteBook )
+	public static NoteCrawler getNoteBook( Preprocessor openNoteBook )
 	{
 		return new Crawler( openNoteBook );
 	}
