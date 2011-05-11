@@ -8,7 +8,7 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import nisbet.andrew.notecrawler.LetterOpener;
+import nisbet.andrew.notecrawler.Preprocessor;
 
 import org.junit.Test;
 
@@ -16,26 +16,26 @@ public class LetterOpenerTest {
 
 	@Test
 	public void testLetterOpener() {
-		LetterOpener letterOpener;
+		Preprocessor preprocessor;
 		try 
 		{
-			letterOpener = new LetterOpener( "report.tex" );
-			assertNotNull( letterOpener );
-			letterOpener.close();
+			preprocessor = new Preprocessor( "report.tex" );
+			assertNotNull( preprocessor );
+			preprocessor.close();
 		} catch (Exception e) {
 			assertTrue( e instanceof FileNotFoundException);
 		}
 		
 		try
 		{
-			letterOpener = new LetterOpener( "invalid_file" );
+			preprocessor = new Preprocessor( "invalid_file" );
 		} catch (Exception e) {
 			assertTrue( e instanceof FileNotFoundException );
 		}
 		
 		try
 		{
-			letterOpener = new LetterOpener( "/home" );
+			preprocessor = new Preprocessor( "/home" );
 		} catch (Exception e) {
 			assertTrue( e instanceof FileNotFoundException );
 		}
@@ -52,16 +52,16 @@ public class LetterOpenerTest {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		LetterOpener letterOpener = null;
+		Preprocessor preprocessor = null;
 		try {
-			letterOpener = new LetterOpener( "test.txt" );
+			preprocessor = new Preprocessor( "test.txt" );
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		assertNotNull( letterOpener );
-		assertTrue( letterOpener.getAuthor().compareTo("Andrew Nisbet") == 0);
-		assertTrue( letterOpener.getTitle().compareTo("Some Interesting Title") == 0);
-		letterOpener.close();
+		assertNotNull( preprocessor );
+		assertTrue( preprocessor.getAuthor().compareTo("Andrew Nisbet") == 0);
+		assertTrue( preprocessor.getTitle().compareTo("Some Interesting Title") == 0);
+		preprocessor.close();
 		
 	}
 

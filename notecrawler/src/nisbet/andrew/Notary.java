@@ -3,7 +3,7 @@
  */
 package nisbet.andrew;
 
-import nisbet.andrew.notecrawler.LetterOpener;
+import nisbet.andrew.notecrawler.Preprocessor;
 import nisbet.andrew.notecrawler.NoteCrawler;
 import nisbet.andrew.notecrawler.NoteCrawlerFactory;
 
@@ -25,11 +25,11 @@ public class Notary
 			System.exit( EXIT_FAILURE );
 		}
 		
-		LetterOpener openNoteBook = null;
+		Preprocessor openNoteBook = null;
 		
 		try
 		{
-			openNoteBook = new LetterOpener( args[0] );
+			openNoteBook = new Preprocessor( args[0] );
 		}
 		catch ( Exception e )
 		{

@@ -1,6 +1,6 @@
 package nisbet.andrew.test;
 
-import nisbet.andrew.notecrawler.LetterOpener;
+import nisbet.andrew.notecrawler.Preprocessor;
 import nisbet.andrew.notecrawler.NoteCrawler;
 import nisbet.andrew.notecrawler.NoteCrawlerFactory;
 
@@ -12,10 +12,10 @@ public class LatexCrawlerTest {
 	public void testRunAll() 
 	{
 		
-		LetterOpener openNoteBook = null;
+		Preprocessor openNoteBook = null;
 		try
 		{
-			openNoteBook = new LetterOpener( "report.tex" );
+			openNoteBook = new Preprocessor( "report.tex" );
 		}
 		catch ( Exception e )
 		{
