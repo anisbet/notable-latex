@@ -86,7 +86,6 @@ public class LinkDictionary implements NotableDictionary
 	
 
 	/**
-	 * @param name
 	 */
 	public void readDictionary( )
 	{

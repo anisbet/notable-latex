@@ -33,7 +33,7 @@ public class DictionaryTest {
 	}
 
 	/**
-	 * Test method for {@link nisbet.andrew.notecrawler.Dictionary#addSymbol(java.lang.String, java.lang.String)}.
+	 * Test method for nisbet.andrew.notecrawler.Dictionary.
 	 */
 	@Test
 	public void testAddSymbol() {

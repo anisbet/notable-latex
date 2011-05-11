@@ -311,7 +311,7 @@ public class BestBeforeURL
 
 
 	/**
-	 * @param bestBeforeDate the bestBeforeDate to set
+	 * @param date the bestBeforeDate to set
 	 */
 	public void setBestBeforeDate( String date ) 
 	{

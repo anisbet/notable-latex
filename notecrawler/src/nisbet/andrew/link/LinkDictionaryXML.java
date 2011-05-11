@@ -216,7 +216,7 @@ public class LinkDictionaryXML extends LinkDictionary
 	/**
 	 * @param ele
 	 * @param tagName
-	 * @return
+	 * @return String with the text of the tag with tagName that is a child of ele.
 	 */
 	protected String getTextValue( Element ele, String tagName ) 
 	{

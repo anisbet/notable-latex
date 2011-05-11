@@ -18,10 +18,11 @@ import org.junit.Test;
 public class LaTeXFigureTest {
 
 	/**
-	 * Test method for {@link nisbet.andrew.latex.Figure#LaTeXFigure(java.lang.String)}.
+	 * Test method for {@link nisbet.andrew.latex.Figure}.
 	 */
 	@Test
-	public void testLaTeXFigureString() {
+	public void testLaTeXFigureString() 
+	{
 		Figure lFigure = new Figure( "http://www.drclay.com/wp-content/uploads/2010/11/swimming_girl.jpg" );
 		assertNotNull(lFigure);
 		File testFile = new File( "swimming_girl.jpg" );
@@ -46,7 +47,7 @@ public class LaTeXFigureTest {
 	}
 
 	/**
-	 * Test method for {@link nisbet.andrew.latex.Figure#LaTeXFigure(java.lang.String, java.lang.String)}.
+	 * Test method for {@link nisbet.andrew.latex.Figure#Figure(java.lang.String, java.lang.String)}.
 	 */
 	@Test
 	public void testLaTeXFigureStringString() {
