@@ -40,7 +40,7 @@ public class BestBeforeURLTest {
 		BestBeforeURL bbu = new BestBeforeURL( "http://www.google.ca/" );
 //		String date = bbu.toString();
 //		String[] dates = date.split("\\$");
-		BestBeforeURL bbu1 = new BestBeforeURL( "http://www.google.ca/", "some_name" );
+		BestBeforeURL bbu1 = new BestBeforeURL( "some_name" );
 		System.out.println( "'" + bbu + "'" );
 		System.out.println( "'" + bbu1 + "'" );
 		assertTrue( bbu.getRawLink().compareTo("http://www.google.ca/") == 0);
@@ -48,15 +48,6 @@ public class BestBeforeURLTest {
 		assertTrue( bbu.getLink().toString().compareTo(bbu1.getRawLink()) == 0 );
 	}
 	
-	@Test
-	public void testHasLink() {
-		
-		BestBeforeURL bbu = new BestBeforeURL( "" );
-		assertTrue( bbu.isFresh() );
-		assertFalse( bbu.hasLink() );
-		bbu = new BestBeforeURL( "www.google.com" );
-		assertTrue( bbu.hasLink() );
-	}
 	
 	@Test
 	public void testImageFunctions()

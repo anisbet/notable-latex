@@ -116,7 +116,7 @@ public class Document
 	 * Writes a line to the open file handle.
 	 * @param line
 	 */
-	public void writeLine( String line ) {
+	protected void writeLine( String line ) {
 		try 
 		{
 			writer.write( line + "\n" );
@@ -129,7 +129,7 @@ public class Document
 	/**
 	 * Document compiles itself.
 	 */
-	public void compile()
+	protected void compile()
 	{
 		// TODO check if latex is installed.
 //		if ( isPdfLatexDocument )

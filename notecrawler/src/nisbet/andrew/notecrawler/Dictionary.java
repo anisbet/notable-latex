@@ -29,7 +29,7 @@ public class Dictionary implements NotableDictionary
 	 * Reads the dictionary from the file with the name serializedDictionary
 	 * @param dictionary
 	 */
-	public Dictionary( String dictionary )
+	protected Dictionary( String dictionary )
 	{
 		dictionaryName = dictionary;
 		this.dictionary = new Hashtable<String, String>();
@@ -163,5 +163,12 @@ public class Dictionary implements NotableDictionary
 	public boolean containsEntry( String word ) 
 	{
 		return dictionary.contains( word );
+	}
+
+
+	@Override
+	public boolean isReading() 
+	{
+		return false;
 	}
 }

@@ -25,9 +25,9 @@ public class Preprocessor
 	private String author;
 	private String title;
 	private Vector<String> packageIncludes;
-	public static final String AUTHOR_DELIMITER = "AUTHOR:";
-	public static final String TITLE_DELIMITER = "TITLE:";
-	public static final String INCLUDE_DELIMITER = "INCLUDE:";
+	private static final String AUTHOR_DELIMITER = "AUTHOR:";
+	private static final String TITLE_DELIMITER = "TITLE:";
+	private static final String INCLUDE_DELIMITER = "INCLUDE:";
 	
 	/**
 	 * @param fileName

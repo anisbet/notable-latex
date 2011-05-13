@@ -129,6 +129,8 @@ public class LinkDictionary implements NotableDictionary
 	 */
 	public void addSymbol( String key, Object bestBeforeURL )
 	{
+		System.out.println( "--->adding " + key );
+		System.out.flush();
 		this.hasChanged = true;
 		dictionary.put(key, (BestBeforeURL)bestBeforeURL);
 	}
@@ -206,8 +208,15 @@ public class LinkDictionary implements NotableDictionary
 	public boolean containsEntry( String word ) 
 	{
 		System.out.print( "searching '" );
-		System.err.print( word );
+		System.out.print( word );
 		System.out.println( "," );
 		return dictionary.containsKey( word );
+	}
+
+
+	@Override
+	public boolean isReading() 
+	{
+		return false;
 	}
 }

@@ -3,9 +3,9 @@
  */
 package nisbet.andrew.link;
 
+import nisbet.andrew.latex.Crawler;
 import nisbet.andrew.latex.Figure;
 import nisbet.andrew.latex.LaTeXLink;
-import nisbet.andrew.latex.Crawler;
 import nisbet.andrew.notecrawler.BestBeforeURL;
 import nisbet.andrew.notecrawler.NotableDictionary;
 import nisbet.andrew.service.ServiceRequest;
@@ -13,16 +13,16 @@ import nisbet.andrew.service.WikipediaServiceRequest;
 
 
 /**
- * This class manages the request for a link from the users notes. The user requests a link to a pertinate 
+ * This class manages the request for a link from the users notes. The user requests a link to a pertinate
  * topic in Wikipedia by surrounding the term or phrase in question with {@link Crawler#LINK_DELIMITER}.
  * @author anisbet
  *
  */
-public class LinkCrawler 
+public class LinkCrawler
 {
 	private NotableDictionary dictionary = null;
 	private BestBeforeURL bbURL = null;
-	
+
 	/**
 	 * Constructor.
 	 * @param linkDictionary (opened).
@@ -32,36 +32,10 @@ public class LinkCrawler
 		this.dictionary = linkDictionary;
 	}
 
-	
-	/**
-	 * To get here we need to find a good link and put it in the dictionary like word<=>http://link.
-	 * @param string
-	 * @return the link or the original search term if the search of Wikipedia failed.
-	 */
-	public String createLink( String string ) 
-	{
-		ServiceRequest serviceRequest = new WikipediaServiceRequest( string, "1" );
-		Link link = serviceRequest.getLink();
-		return link.getLink();
-	}
-	
 
-
-	/**
-	 * @param searchTerm
-	 * @return true if the search term doesn't exist or the link is out-of-date and false otherwise.
-	 */
-	public boolean needsLink( String searchTerm )
+	public String getImage()
 	{
-		if ( this.dictionary.containsEntry( searchTerm ) )
-		{
-			this.bbURL = (BestBeforeURL)this.dictionary.getValue( searchTerm );
-			if ( bbURL.isFresh() )
-			{
-				return false;
-			}
-		}
-		return true;
+		return bbURL.getLaTeXImageCode();
 	}
 
 
@@ -70,7 +44,8 @@ public class LinkCrawler
 	 * @param searchTerm
 	 * @return New link from Wikipedia, fresh link from database or original term if neither can be gotten.
 	 */
-	public Link getLink( String searchTerm ) {
+	public Link getLink( String searchTerm )
+	{
 		if ( this.dictionary.containsEntry( searchTerm ) )
 		{
 			BestBeforeURL bbURL = (BestBeforeURL)this.dictionary.getValue( searchTerm );
@@ -100,7 +75,7 @@ public class LinkCrawler
 					bbURL.setImage( currentFigure );
 				}
 			}
-			
+
 			dictionary.addSymbol( searchTerm, bbURL );
 			LaTeXLink latexLink = new LaTeXLink( bbURL.getRawLink(), searchTerm );
 			latexLink.setLaTeXFigure( bbURL.getLaTeXFigure() );
@@ -108,28 +83,10 @@ public class LinkCrawler
 		}
 		else
 		{
-			System.out.println( "the term '" + serviceRequest.getLink() + 
-				"' failed. either the term could not be found or you may have lost connection to the Internet. Rerun." );
+			System.out.println( "the term '" + serviceRequest.getLink() +
+			"' failed. either the term could not be found or you may have lost connection to the Internet. Rerun." );
 		}
 		return serviceRequest.getLink(); // a failed request will return just the search term.
 	}
 
-
-	/**
-	 * @return True if the URL has an image and false otherwise.
-	 */
-	public boolean hasImage()
-	{
-		if ( bbURL == null )
-		{
-			return false;
-		}
-		return bbURL.imageExists();
-	}
-
-
-	public String getImage() 
-	{
-		return bbURL.getLaTeXImageCode();
-	}
 }

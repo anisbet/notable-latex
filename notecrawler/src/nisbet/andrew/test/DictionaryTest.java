@@ -39,7 +39,7 @@ public class DictionaryTest {
 	public void testAddSymbol() {
 		LinkDictionary dict = new LinkDictionary( "test.txt" );
 		dict.readDictionary();
-		dict.addSymbol("name2", new BestBeforeURL( "www.google.ca", "name2" ) );
+		dict.addSymbol("name2", new BestBeforeURL( "www.google.ca" ) );
 		dict.writeToFile();
 		assertNotNull( new File( "test.txt" ) ); 
 	}

@@ -12,7 +12,7 @@ public class TableColumn
 {
 	private String justification;
 	// now set a flag for long lines (> 60 chars).
-	public final static int LONG_LINE = 20;
+	private final static int LONG_LINE = 20;
 	
 	public TableColumn( String columnString )
 	{

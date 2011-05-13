@@ -28,16 +28,6 @@ public class Figure
 		isSuccessful = false;
 		this.caption = new String();
 	}
-
-	/**
-	 * @param image
-	 */
-	public Figure( String image ) 
-	{
-		// find the image and download it.
-		isSuccessful = downloadImage( image );
-		this.caption = new String();
-	}
 	
 	/**
 	 * @param image the url to the image that is to be downloaded.
@@ -48,16 +38,7 @@ public class Figure
 		isSuccessful = downloadImage( image );
 		this.caption = new String();
 	}
-	
-	/**
-	 * @param image
-	 * @param caption
-	 */
-	public Figure( String image, String caption )
-	{
-		isSuccessful = downloadImage( image );
-		this.caption = caption;
-	}
+
 	
 	/**
 	 * Takes the name name of an image that is expected to exist on the local file system and 

@@ -36,4 +36,6 @@ public interface NotableDictionary {
 
 	public abstract void readDictionary();
 
+	public abstract boolean isReading();
+
 }
