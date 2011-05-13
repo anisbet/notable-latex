@@ -18,11 +18,11 @@ import nisbet.andrew.link.Link;
  */
 public class BestBeforeURL 
 {
-	public static final int MONTHS_FRESHNESS = 6; // the number of months until the URL needs to be updated.
+	private static final int MONTHS_FRESHNESS = 6; // the number of months until the URL needs to be updated.
 	public static final String DELIMITER = "==";  // change this if it conflicts on output.
-	public static final int YEAR = 5;
-	public static final int MONTH = 1;
-	public static final int DAY = 2;
+	private static final int YEAR = 5;
+	private static final int MONTH = 1;
+	private static final int DAY = 2;
 	private Calendar bestBeforeDate = null;
 	private Figure latexFigure = null;
 	private Link url;
@@ -75,18 +75,7 @@ public class BestBeforeURL
 		latexFigure = new Figure();
 		url = link;
 	}
-	
-	/**
-	 * Creates a {@link BestBeforeURL} object automatically creating a {@link LaTeXLink} object
-	 * from target and name.
-	 * @param target
-	 * @param name
-	 */
-	public BestBeforeURL( String target, String name )
-	{
-		initBestBeforeURL();
-		url = new LaTeXLink( target, name );
-	}
+
 
 	/**
 	 * Convert Name to an integer.
@@ -152,16 +141,8 @@ public class BestBeforeURL
 	 */
 	public void setMonthsFreshness( int monthsFreshness ) 
 	{
-		touch();
-		bestBeforeDate.add( Calendar.MONTH, monthsFreshness );
-	}
-	
-	/**
-	 * Resets the date for the link to now.
-	 */
-	public void touch()
-	{
 		bestBeforeDate.setTime( new Date() );
+		bestBeforeDate.add( Calendar.MONTH, monthsFreshness );
 	}
 
 	/**
@@ -186,8 +167,11 @@ public class BestBeforeURL
 	 */
 	public boolean isFresh()
 	{
+		System.out.print( "=== Testing the freshness of the BBURL: " ); 
 		Calendar now = Calendar.getInstance();
 		now.setTime( new Date() );
+		System.out.println( "this BBRUL has a timestamp of " + this.getBestBeforeDate() + " comparedTo() " + 
+				now.getTime().toString() );
 		return bestBeforeDate.compareTo( now ) >= 0;
 	}
 	
@@ -234,14 +218,6 @@ public class BestBeforeURL
 			out.append( this.latexFigure.getCaption() );
 		}
 		return out.toString();
-	}
-
-	/**
-	 * @return True if the link object actually has a link and false otherwise.
-	 */
-	public boolean hasLink() 
-	{
-		return url.length() > 1;
 	}
 
 	/**

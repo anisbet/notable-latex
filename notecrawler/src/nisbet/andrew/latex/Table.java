@@ -14,7 +14,7 @@ import java.util.Vector;
  */
 public class Table
 {
-	public final static String DELIMITER = "\\|";
+	private final static String DELIMITER = "\\|";
 	private Vector<TableColumn> columns;
 	private int lineNumber;
 	private StringBuffer justifification;

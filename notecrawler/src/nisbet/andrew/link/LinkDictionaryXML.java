@@ -26,9 +26,10 @@ import org.w3c.dom.NodeList;
  * @author anisbet
  *
  */
-public class LinkDictionaryXML extends LinkDictionary 
+public class LinkDictionaryXML extends LinkDictionary
 {
 	private Document dom = null;
+	private boolean isReading = true;
 	/**
 	 * @param dictionary
 	 */
@@ -41,7 +42,7 @@ public class LinkDictionaryXML extends LinkDictionary
 	/**
 	 * 
 	 */
-	protected void init()
+	private void init()
 	{
 		File dictFile = new File( this.dictionaryName );
 		if ( dictFile.exists() == false )
@@ -51,9 +52,9 @@ public class LinkDictionaryXML extends LinkDictionary
 	}
 	
 	/**
-	 * 
+	 * Sets the DOM object.
 	 */
-	protected void initDomDoc()
+	private void initDomDoc()
 	{
 		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		DocumentBuilder docBuilder = null;
@@ -74,7 +75,7 @@ public class LinkDictionaryXML extends LinkDictionary
 	 * @see nisbet.andrew.link.LinkDictionary#readDictionary()
 	 */
 	@Override
-	public void readDictionary()
+	public synchronized void readDictionary()
 	{
 		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		try 
@@ -89,6 +90,7 @@ public class LinkDictionaryXML extends LinkDictionary
 		
 		Element rootElement = dom.getDocumentElement();
 		NodeList nodeList = rootElement.getElementsByTagName( "entry" );
+		System.out.println( "===> read " + nodeList.getLength() + " entry nodes, is that right?");
 		if( nodeList != null && nodeList.getLength() > 0 ) 
 		{
 			String key   = null;
@@ -99,10 +101,12 @@ public class LinkDictionaryXML extends LinkDictionary
 				Element element = ( Element )nodeList.item( i );
 				key   = getTextValue( element, "key" );
 				value = getBestBeforeURL( element, key );
-				this.addSymbol( key, value );
+				addSymbol( key, value );
 				element.getParentNode().removeChild(element);
 			}
 		}
+		isReading = false;
+		notifyAll();
 		
 	}
 	
@@ -162,7 +166,7 @@ public class LinkDictionaryXML extends LinkDictionary
 	/**
 	 * Override in subsequent classes to output the dataTypes stored there.
 	 */
-	protected void serialize()
+	private void serialize()
 	{
 		initDomDoc(); // re-initialize the dom document.
 		Enumeration<String> e = dictionary.keys();
@@ -218,7 +222,7 @@ public class LinkDictionaryXML extends LinkDictionary
 	 * @param tagName
 	 * @return String with the text of the tag with tagName that is a child of ele.
 	 */
-	protected String getTextValue( Element ele, String tagName ) 
+	private String getTextValue( Element ele, String tagName ) 
 	{
 		String text = "";
 		NodeList nodeList = ele.getElementsByTagName( tagName );
@@ -234,5 +238,11 @@ public class LinkDictionaryXML extends LinkDictionary
 		}
 
 		return text;
+	}
+	
+	@Override
+	public boolean isReading()
+	{
+		return this.isReading ;
 	}
 }

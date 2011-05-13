@@ -23,10 +23,9 @@ import nisbet.andrew.service.WikipediaServiceRequest;
  */
 public class Crawler implements NoteCrawler 
 {
-	public static final char   LINK_DELIMITER = '+';
-	public static final String defaultLinkDictionary = "linkdict.xml";
-	public static final String defaultCharDictionary = "chardict.xml";
-	public static final char COLUMN_DELIMINATOR = '|';
+	private static final char   LINK_DELIMITER = '+';
+	private static final String defaultLinkDictionary = "linkdict.xml";
+	private static final String defaultCharDictionary = "chardict.xml";
 	
 	private Preprocessor notes = null;
 	private boolean isVerbatim = false;
@@ -87,7 +86,7 @@ public class Crawler implements NoteCrawler
 	 * @param line
 	 * @return the link as a string ready to paste in the LaTeX note text.
 	 */
-	protected String link( LinkCrawler linkCrawler, String line ) {
+	private String link( LinkCrawler linkCrawler, String line ) {
 		// if we are in a verbatim statement don't do links.
 		if ( this.isVerbatim == true )
 		{
@@ -115,7 +114,7 @@ public class Crawler implements NoteCrawler
 	 * @param line from the notes
 	 * @return A String with the code words replaced with their LaTeX equivalent.
 	 */
-	protected String preprocess( Preprocessor notes, String line )
+	private String preprocess( Preprocessor notes, String line )
 	{
 		StringBuffer lineBuff = new StringBuffer();
 		
@@ -255,7 +254,7 @@ public class Crawler implements NoteCrawler
 	 * @param line
 	 * @return A line clean of offending non-LaTeX compilable text.
 	 */
-	protected String clean( String line ) 
+	private String clean( String line ) 
 	{
 		Enumeration<String> e = this.charDictionary.keys();
 		//iterate through Hashtable keys Enumeration

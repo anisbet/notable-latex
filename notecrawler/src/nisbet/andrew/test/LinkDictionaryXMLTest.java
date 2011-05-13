@@ -14,7 +14,7 @@ public class LinkDictionaryXMLTest {
 		LinkDictionaryXML dictXml = new LinkDictionaryXML( "tempLink.xml" );
 		assertNotNull( dictXml );
 		dictXml.readDictionary();
-		BestBeforeURL bbURL = new BestBeforeURL("name2", "www.google.ca");
+		BestBeforeURL bbURL = new BestBeforeURL("someLink");
 		dictXml.addSymbol("one", bbURL);
 		dictXml.addSymbol("two", bbURL);
 		assertTrue( dictXml.writeToFile() );

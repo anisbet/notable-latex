@@ -203,7 +203,10 @@ public class WikipediaServiceRequest implements ServiceRequest
 	}
 
 	
-	public void setImage() 
+	/**
+	 * Sets the local path to the image and downloads it to the local file system if available.
+	 */
+	private void setImage() 
 	{
 		if ( this.imageUrl == null ) 
 		{
@@ -231,11 +234,13 @@ public class WikipediaServiceRequest implements ServiceRequest
 	
 
 	/**
+	 * Tests if the image type to download is of a valid type. You can set this to 
+	 * what ever your application can handle -- for LaTeX it is jpeg and png.
 	 * @param image
 	 */
 	private void setValidImageType( String image )
 	{
-		if ( image.endsWith( ".jpg" ) || image.endsWith( ".jpg" ) )
+		if ( image.endsWith( ".jpg" ) || image.endsWith( ".png" ) )
 		{
 			this.isValidImageType = true;
 		}

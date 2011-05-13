@@ -12,7 +12,7 @@ import java.util.Vector;
  */
 public class LineLinkParser 
 {
-	public final static String DELIMITER = "+";
+	
 	private char delimiter;
 	private Vector<String> linkTargets;
 	private boolean isMathOperation;
@@ -32,7 +32,7 @@ public class LineLinkParser
 	/**
 	 * @param line read from the notes.
 	 */
-	protected void parseLine( String line ) {
+	private void parseLine( String line ) {
 				
 		int index = 0;
 		while ( index < line.length() )

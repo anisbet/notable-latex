@@ -28,7 +28,7 @@ import org.w3c.dom.NodeList;
  */
 public class DictionaryXML extends Dictionary
 {
-	protected Document dom = null;
+	private Document dom = null;
 	
 	/**
 	 * @param dictionary named file in file system.
@@ -40,7 +40,7 @@ public class DictionaryXML extends Dictionary
 	}
 
 	
-	protected void init()
+	private void init()
 	{
 		File dictFile = new File( this.dictionaryName );
 		if ( dictFile.exists() == false )
@@ -49,7 +49,7 @@ public class DictionaryXML extends Dictionary
 		}
 	}
 	
-	protected void initDomDoc()
+	private void initDomDoc()
 	{
 		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		DocumentBuilder docBuilder = null;
@@ -107,7 +107,7 @@ public class DictionaryXML extends Dictionary
 	/**
 	 * Override in subsequent classes to output the dataTypes stored there.
 	 */
-	protected void serialize()
+	private void serialize()
 	{
 		initDomDoc(); // re-initialize the dom document.
 		Enumeration<String> e = dictionary.keys();
@@ -168,7 +168,7 @@ public class DictionaryXML extends Dictionary
 	 * @param tagName
 	 * @return String of text of the element that contains a tag of tagName.
 	 */
-	protected String getTextValue( Element ele, String tagName ) 
+	private String getTextValue( Element ele, String tagName ) 
 	{
 		String text = null;
 		NodeList nodeList = ele.getElementsByTagName( tagName );
