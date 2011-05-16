@@ -34,7 +34,7 @@ public class Crawler implements NoteCrawler
 	// There is a dictionary for the characters and their mappings
 	// There is a dictionary of terms that need not be looked up actually this is a list.
 	// but in this design I will use a Hashtable and if the value is empty it will not be linked.
-	private LinkDictionaryXML linkDictionary = null;
+	private NotableDictionary linkDictionary = null;
 	private NotableDictionary charDictionary = null;
 	private Document latexDocument;
 	
