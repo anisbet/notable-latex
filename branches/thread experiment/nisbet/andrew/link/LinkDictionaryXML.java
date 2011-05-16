@@ -5,6 +5,7 @@ package nisbet.andrew.link;
 
 import java.io.File;
 import java.util.Enumeration;
+import java.util.Hashtable;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -16,6 +17,7 @@ import javax.xml.transform.stream.StreamResult;
 
 import nisbet.andrew.latex.LaTeXLink;
 import nisbet.andrew.notecrawler.BestBeforeURL;
+import nisbet.andrew.notecrawler.NotableDictionary;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -26,16 +28,18 @@ import org.w3c.dom.NodeList;
  * @author anisbet
  *
  */
-public class LinkDictionaryXML extends LinkDictionary
+public class LinkDictionaryXML implements NotableDictionary
 {
 	private Document dom = null;
-	private boolean isReading = true;
+	protected String dictionaryName = null;
+	protected Hashtable<String, BestBeforeURL> dictionary = null;
 	/**
 	 * @param dictionary
 	 */
 	public LinkDictionaryXML( String dictionary ) 
 	{
-		super( dictionary );
+		this.dictionaryName = dictionary;
+		this.dictionary     = new Hashtable<String, BestBeforeURL>();
 		init();
 	}
 	
@@ -102,12 +106,9 @@ public class LinkDictionaryXML extends LinkDictionary
 				key   = getTextValue( element, "key" );
 				value = getBestBeforeURL( element, key );
 				addSymbol( key, value );
-				element.getParentNode().removeChild(element);
+				//element.getParentNode().removeChild(element);
 			}
 		}
-		isReading = false;
-		notifyAll();
-		
 	}
 	
 	
@@ -239,10 +240,44 @@ public class LinkDictionaryXML extends LinkDictionary
 
 		return text;
 	}
-	
-	@Override
-	public boolean isReading()
+
+	/**
+	 * Adds a key and value to the dictionary.
+	 * @param key
+	 * @param bestBeforeURL
+	 */
+	public void addSymbol(String key, Object bestBeforeURL) 
 	{
-		return this.isReading ;
+		System.out.println( "--->adding " + key );
+		System.out.flush();
+		dictionary.put(key, (BestBeforeURL)bestBeforeURL);
+	}
+
+	/**
+	 * @return All the keys of the dictionary.
+	 */
+	public Enumeration<String> keys() 
+	{
+		return dictionary.keys();
+	}
+
+	/**
+	 * @param searchValue
+	 * @return The value that matches the keyword of null if not found.
+	 */
+	public Object getValue(String searchValue) 
+	{
+		return dictionary.get( searchValue );
+	}
+
+	/**
+	 * @param word
+	 * @return true if the dictionary contains a link and false otherwise.
+	 */
+	public boolean containsEntry(String word) {
+		System.out.print( "searching '" );
+		System.out.print( word );
+		System.out.println( "," );
+		return dictionary.containsKey( word );
 	}
 }

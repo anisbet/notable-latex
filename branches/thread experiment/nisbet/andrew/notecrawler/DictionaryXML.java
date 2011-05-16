@@ -5,6 +5,7 @@ package nisbet.andrew.notecrawler;
 
 import java.io.File;
 import java.util.Enumeration;
+import java.util.Hashtable;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -26,16 +27,19 @@ import org.w3c.dom.NodeList;
  * @author anisbet
  *
  */
-public class DictionaryXML extends Dictionary
+public class DictionaryXML implements NotableDictionary
 {
 	private Document dom = null;
+	protected String dictionaryName = null;
+	protected Hashtable<String, String> dictionary = null;
 	
 	/**
 	 * @param dictionary named file in file system.
 	 */
 	public DictionaryXML( String dictionary ) 
 	{
-		super( dictionary );
+		this.dictionaryName = dictionary;
+		this.dictionary = new Hashtable<String, String>();
 		init();
 	}
 
@@ -179,6 +183,30 @@ public class DictionaryXML extends Dictionary
 		}
 
 		return text;
+	}
+
+
+	@Override
+	public void addSymbol(String key, Object value) {
+		dictionary.put( key, (String)value );
+	}
+
+
+	@Override
+	public Enumeration<String> keys() {
+		return dictionary.keys();
+	}
+
+
+	@Override
+	public String getValue(String searchValue) {
+		return dictionary.get( searchValue );
+	}
+
+
+	@Override
+	public boolean containsEntry(String word) {
+		return dictionary.contains( word );
 	}
 
 }

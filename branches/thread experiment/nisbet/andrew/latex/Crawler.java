@@ -34,7 +34,7 @@ public class Crawler implements NoteCrawler
 	// There is a dictionary for the characters and their mappings
 	// There is a dictionary of terms that need not be looked up actually this is a list.
 	// but in this design I will use a Hashtable and if the value is empty it will not be linked.
-	private NotableDictionary linkDictionary = null;
+	private LinkDictionaryXML linkDictionary = null;
 	private NotableDictionary charDictionary = null;
 	private Document latexDocument;
 	
@@ -46,6 +46,18 @@ public class Crawler implements NoteCrawler
 		notes          = openNoteBook;
 		linkDictionary = new LinkDictionaryXML( defaultLinkDictionary );
 		linkDictionary.readDictionary();
+//		linkDictionary.start();
+//		synchronized (this)
+//		{
+//			while ( linkDictionary.isReading() )
+//			{
+//				try
+//				{
+//					wait();
+//				}
+//				catch ( InterruptedException e ){}
+//			}
+//		}
 		charDictionary = new DictionaryXML( defaultCharDictionary );
 		charDictionary.readDictionary();
 	}
