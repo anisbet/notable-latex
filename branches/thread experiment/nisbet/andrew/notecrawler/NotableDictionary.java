@@ -2,7 +2,8 @@ package nisbet.andrew.notecrawler;
 
 import java.util.Enumeration;
 
-public interface NotableDictionary {
+public interface NotableDictionary
+{
 
 	/**
 	 * Adds a key and value to the dictionary.
@@ -35,7 +36,5 @@ public interface NotableDictionary {
 	public abstract boolean containsEntry(String word);
 
 	public abstract void readDictionary();
-
-	public abstract boolean isReading();
 
 }
