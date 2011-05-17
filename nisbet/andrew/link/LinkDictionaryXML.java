@@ -94,7 +94,6 @@ public class LinkDictionaryXML implements NotableDictionary
 		
 		Element rootElement = dom.getDocumentElement();
 		NodeList nodeList = rootElement.getElementsByTagName( "entry" );
-		System.out.println( "===> read " + nodeList.getLength() + " entry nodes, is that right?");
 		if( nodeList != null && nodeList.getLength() > 0 ) 
 		{
 			String key   = null;
@@ -106,7 +105,6 @@ public class LinkDictionaryXML implements NotableDictionary
 				key   = getTextValue( element, "key" );
 				value = getBestBeforeURL( element, key );
 				addSymbol( key, value );
-				//element.getParentNode().removeChild(element);
 			}
 		}
 	}
@@ -248,8 +246,6 @@ public class LinkDictionaryXML implements NotableDictionary
 	 */
 	public void addSymbol(String key, Object bestBeforeURL) 
 	{
-		System.out.println( "--->adding " + key );
-		System.out.flush();
 		dictionary.put(key, (BestBeforeURL)bestBeforeURL);
 	}
 

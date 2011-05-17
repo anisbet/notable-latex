@@ -46,18 +46,6 @@ public class Crawler implements NoteCrawler
 		notes          = openNoteBook;
 		linkDictionary = new LinkDictionaryXML( defaultLinkDictionary );
 		linkDictionary.readDictionary();
-//		linkDictionary.start();
-//		synchronized (this)
-//		{
-//			while ( linkDictionary.isReading() )
-//			{
-//				try
-//				{
-//					wait();
-//				}
-//				catch ( InterruptedException e ){}
-//			}
-//		}
 		charDictionary = new DictionaryXML( defaultCharDictionary );
 		charDictionary.readDictionary();
 	}
