@@ -33,9 +33,9 @@ public class WikipediaRequestTest {
 	public void testImage() {
 		ServiceRequest service = new WikipediaServiceRequest("car","1");
 		assertNotNull( service );
-		//System.out.println( service.getLink() );
-		//System.out.println( service.getImage() );
-		//System.out.println( service.getDescription() );
+		System.out.println( service.getLink() );
+		System.out.println( service.getImage() );
+		System.out.println( service.getDescription() );
 		assertTrue( service.serviceSucceeded() );
 		service.getImage();
 	}
