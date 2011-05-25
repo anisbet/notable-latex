@@ -3,15 +3,11 @@
  */
 package nisbet.andrew.latex;
 
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-
-import javax.imageio.ImageIO;
+import nisbet.andrew.service.ImageFetcher;
 
 /**
+ * Figure is the encapsulation of a LaTeX figure. Given the information about the image this 
+ * class formats the request into legal latex code for output.
  * @author anisbet
  *
  */
@@ -20,22 +16,12 @@ public class Figure
 	private boolean isSuccessful; // True if download and save of the image successful
 	private boolean hasCaption;   // true if there is a caption and false otherwise.
 	private String caption;       // Caption for the image optional
-	private String localName;
+	private String localName;     // name of the file on the local fs. Needed for the fig: tag.
 	
 	
 	public Figure( ) 
 	{
-		isSuccessful = false;
-		this.caption = new String();
-	}
-	
-	/**
-	 * @param image the url to the image that is to be downloaded.
-	 */
-	public void getImageDownload( String image ) 
-	{
-		// find the image and download it.
-		isSuccessful = downloadImage( image );
+		this.isSuccessful = false;
 		this.caption = new String();
 	}
 
@@ -50,18 +36,8 @@ public class Figure
 	{
 		// take a name and if you can find it in the file system then we're good and if not return false.
 		this.localName = imageName;
-		this.isSuccessful = Figure.testImageExists( this.localName );
+		this.isSuccessful = ImageFetcher.testImageExists( this.localName );
 		return this.isSuccessful;
-	}
-
-	/**
-	 * @param name of the file to test for existance.
-	 * @return True if the file exists and is actually a file.
-	 */
-	public static boolean testImageExists( String name ) 
-	{
-		File file = new File( name );
-		return file.exists() && file.isFile();
 	}
 
 	/**
@@ -108,61 +84,6 @@ public class Figure
 		this.caption    = caption;
 	}
 
-	/**
-	 * @param image url string to the image you wish to download. The string may also include a query string
-	 * that will be safely ignored.
-	 * @return true if the image was downloaded and false otherwise.
-	 */
-	private boolean downloadImage( String imagePath )
-	{
-		URL url;
-		try 
-		{
-			url = new URL( imagePath );
-			localName = getLocalName( url );
-			if ( localName == null )
-			{
-				return false;
-			}
-			System.out.println( "file: " + localName + " retreived and written to local file system." );
-			BufferedImage image = ImageIO.read( url );
-			File outputfile = new File( localName );
-		    ImageIO.write( image, "jpg", outputfile );
-		} 
-		catch (MalformedURLException e)
-		{
-			return false;
-		}
-		catch (IOException e)
-		{
-			return false;
-		}
-		
-		return true;
-	}
-
-	/**
-	 * Given a URL it will strip off the file name and even remove the query if any.
-	 * @param url
-	 * @return
-	 */
-	private String getLocalName( URL url ) 
-	{
-		String temp = url.getFile();
-		String[] dirs = temp.split("/");
-		if ( dirs.length > 0 )
-		{
-			String name =  dirs[ dirs.length -1 ];
-			// just to make sure we don't include a query...
-			if ( name.contains("?") )
-			{
-				String[] tname = name.split("\\?");
-				name = tname[0];
-			}
-			return name;
-		}
-		return null;
-	}
 
 	/**
 	 * @return The local name of the file as saved in the local file system.
