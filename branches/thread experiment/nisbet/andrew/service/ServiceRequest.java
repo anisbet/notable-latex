@@ -18,4 +18,6 @@ public interface ServiceRequest {
 
 	public abstract String getDescription();
 
+	void downloadImage();
+
 }
