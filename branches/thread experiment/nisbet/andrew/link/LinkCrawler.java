@@ -68,7 +68,7 @@ public class LinkCrawler
 			if ( serviceRequest.isImageAvailable() )
 			{
 				Figure currentFigure = new Figure();
-				currentFigure.getImageDownload( serviceRequest.getImage() );
+				// the image itself (if there is one) is downloaded by the service when the constructor runs.
 				currentFigure.setCaption( serviceRequest.getDescription() );
 				if ( currentFigure.isSuccessful() )
 				{
