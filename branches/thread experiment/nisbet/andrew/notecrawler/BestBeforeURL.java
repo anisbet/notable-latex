@@ -167,11 +167,8 @@ public class BestBeforeURL
 	 */
 	public boolean isFresh()
 	{
-		System.out.print( "=== Testing the freshness of the BBURL: " ); 
 		Calendar now = Calendar.getInstance();
 		now.setTime( new Date() );
-		System.out.println( "this BBRUL has a timestamp of " + this.getBestBeforeDate() + " comparedTo() " + 
-				now.getTime().toString() );
 		return bestBeforeDate.compareTo( now ) >= 0;
 	}
 	
