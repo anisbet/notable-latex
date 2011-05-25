@@ -8,6 +8,7 @@ import java.io.OutputStreamWriter;
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLEncoder;
+import java.net.UnknownHostException;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -30,7 +31,7 @@ public class WikipediaServiceRequest implements ServiceRequest
 
 	private String queryPhrase;
 	private boolean hasError;
-	private String imageUrl;
+	private String imageName;
 	private boolean isValidImageType;
 	private String description;
 	private String linkTarget;
@@ -66,7 +67,7 @@ public class WikipediaServiceRequest implements ServiceRequest
 		}
 		InputStream xmlStream = createConnection( url, data );
 		parseDocument( xmlStream );
-		setImage();
+		downloadImage();
 	}
 	
 	/**
@@ -129,7 +130,11 @@ public class WikipediaServiceRequest implements ServiceRequest
 				//get the Item element
 				Element element = ( Element )nodeList.item( i );
 				this.linkTarget = getTextValue( element, "Url" );
-				this.imageUrl = getAttributeValue( element, "Image", "source");
+				this.imageName = getAttributeValue( element, "Image", "source");
+				if ( this.imageName == null )
+				{
+					System.out.println( "no image specified for the topic in the XML." );
+				}
 				this.description = getTextValue( element, "Description" );
 			}
 		}
@@ -206,61 +211,77 @@ public class WikipediaServiceRequest implements ServiceRequest
 	/**
 	 * Sets the local path to the image and downloads it to the local file system if available.
 	 */
-	private void setImage() 
+	@Override
+	public void downloadImage() 
 	{
-		if ( this.imageUrl == null ) 
+		if ( this.imageName == null ) 
 		{
 			return;
 		}
 		// get the name of the image
 		// request the page and search it for the image src attribute.
 		// use that as your image url.
-		String myImageName = getImageQueryName( this.imageUrl );
-		ImageFetcher imageFetcher = new ImageFetcher( this.linkTarget, myImageName );
-		this.imageUrl = imageFetcher.getImageURL();
-		setValidImageType( this.imageUrl );
+		String myBasicImageName = getImageBaseName( this.imageName );
+		ImageFetcher imageFetcher = null;
+		try {
+			imageFetcher = new ImageFetcher( this.linkTarget, myBasicImageName );
+		} catch (UnknownHostException e) {
+			System.err.println( "The host: '" + this.linkTarget + "' is unknown." );
+		}
+		this.imageName = imageFetcher.getImageURL();
+		setValidImageType( imageFetcher );
 	}
 	
 	@Override
 	public String getImage() 
 	{
-		if ( this.imageUrl == null || this.isValidImageType == false ) 
+		if ( this.imageName == null || this.isValidImageType == false ) 
 		{
 			return "";
 		}
 
-		return this.imageUrl;
+		return this.imageName;
 	}
 	
 
 	/**
 	 * Tests if the image type to download is of a valid type. You can set this to 
 	 * what ever your application can handle -- for LaTeX it is jpeg and png.
-	 * @param image
+	 * @param imageFetcher.getImageURL()
 	 */
-	private void setValidImageType( String image )
+	private void setValidImageType( ImageFetcher imageFetcher )
 	{
-		if ( image.endsWith( ".jpg" ) || image.endsWith( ".png" ) )
+		if ( imageFetcher.getImageURL().endsWith( ".jpg" ) || imageFetcher.getImageURL().endsWith( ".png" ) )
 		{
-			this.isValidImageType = true;
+			if ( imageFetcher.isBigEnough() )
+			{
+				this.isValidImageType = true;
+				return;
+			}
 		}
-		else
-		{
-			this.isValidImageType = false;
-		}
+		this.isValidImageType = false;
 	}
 
 	/**
-	 * Given a URL it will strip off the file name and even remove the query if any.
+	 * Given a URL it will strip off the file name, any size wikipedia prepends to the path name, and even remove the query if any.
+	 * This is necessary because we search for the file name on the wikipedia page but we will not find the image if the size info 
+	 * from the SOURCE attribute is used since it tells us the thumbnail image name rather than the name of the image within the 
+	 * page (which could have a sizing of 220px prepended on it's name).
 	 * @param url
-	 * @return
+	 * @return the base name of the image without size information.
 	 */
-	private String getImageQueryName( String url ) 
+	private String getImageBaseName( String url ) 
 	{
 		String[] dirs = url.split("/");
 		if ( dirs.length > 0 )
 		{
-			String name =  dirs[ dirs.length -2 ];
+			String name =  dirs[ dirs.length -1 ];
+			// now remove any preceding size
+			if ( Character.isDigit( name.charAt( 0 ) ) )
+			{
+				int pos = name.indexOf("-");
+				name = name.substring(pos +1);
+			}
 			return name;
 		}
 		return null;
