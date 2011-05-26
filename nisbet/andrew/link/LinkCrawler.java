@@ -70,6 +70,7 @@ public class LinkCrawler
 				Figure currentFigure = new Figure();
 				// the image itself (if there is one) is downloaded by the service when the constructor runs.
 				currentFigure.setCaption( serviceRequest.getDescription() );
+				currentFigure.setImage(serviceRequest.getImage());
 				if ( currentFigure.isSuccessful() )
 				{
 					bbURL.setImage( currentFigure );
