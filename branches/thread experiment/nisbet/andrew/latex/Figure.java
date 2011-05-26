@@ -55,7 +55,7 @@ public class Figure
 	 */
 	public String toString()
 	{
-		if ( isSuccessful == false )
+		if ( this.isSuccessful == false )
 		{
 			return "";
 		}
