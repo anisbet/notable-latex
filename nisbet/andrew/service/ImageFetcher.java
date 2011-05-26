@@ -8,11 +8,9 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.ObjectInputStream.GetField;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.UnknownHostException;
-import java.util.Vector;
 
 import javax.imageio.ImageIO;
 
@@ -31,7 +29,7 @@ import javax.imageio.ImageIO;
  */
 public class ImageFetcher 
 {
-	public final static int MINIMUM_IMAGE_SIZE = 100;
+	public final static int MINIMUM_IMAGE_SIZE = 100; // adjust this to screen out smaller images.
 	private int size;
 	private URL imageURL;       // the page that the image source can be found on.
 	private String searchName;  // the most basic name this image has to be found in an HTML page source.
