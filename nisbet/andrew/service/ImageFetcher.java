@@ -158,7 +158,18 @@ public class ImageFetcher
 			System.out.println( "file: " + this.imageName + " retreived and written to local file system." );
 			BufferedImage image = ImageIO.read( this.imageURL );
 			File outputfile = new File( this.imageName );
-		    ImageIO.write( image, "jpg", outputfile );
+			if ( this.imageName.endsWith( "jpg" ) )
+			{
+				ImageIO.write( image, "jpg", outputfile );
+			}
+			else if ( this.imageName.endsWith( "png" ) )
+			{
+				ImageIO.write( image, "png", outputfile );
+			}
+			else
+			{
+				return false;
+			}
 		} 
 		catch (MalformedURLException e)
 		{
