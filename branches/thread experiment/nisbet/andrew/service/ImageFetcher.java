@@ -8,9 +8,11 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.ObjectInputStream.GetField;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.UnknownHostException;
+import java.util.Vector;
 
 import javax.imageio.ImageIO;
 
@@ -69,6 +71,79 @@ public class ImageFetcher
 	}
 	
 	
+	/**
+	 * Searches the argument page for images to download.
+	 * @param htmlPage
+	 */
+	public ImageFetcher( String htmlPage ) 
+	{
+		this.imageURL = null;
+		try {
+			this.imageURL = new URL( htmlPage );
+			BufferedReader in;
+			in = new BufferedReader( new InputStreamReader( this.imageURL.openStream() ) );
+			String inputLine;
+			// read the content of the URL until you get an image mention.
+			while ( ( inputLine = in.readLine() ) != null )
+			{
+			    if ( inputLine.contains( "img" ) || inputLine.contains("IMG") )
+			    {
+			    	if ( isOptimalImage( inputLine ) )
+			    	{
+			    		String optimalImage = getImageSrc( inputLine );
+			    		this.imageName = getLocalName( optimalImage );
+			    		this.imageURL  = new URL( optimalImage );
+			    	}
+			    }
+			}
+			in.close();
+		}
+		catch (IOException e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+
+	/**
+	 * @param optimalImage
+	 * @return the name of the file without any pathing or query string.
+	 */
+	private String getLocalName( String optimalImage )
+	{
+		String[] dirs = optimalImage.split("/");
+		if ( dirs.length > 0 )
+		{
+			String name =  dirs[ dirs.length -1 ];
+			// just to make sure we don't include a query...
+			if ( name.contains("?") == false )
+			{
+				return name;
+			}
+		}
+		return "";
+	}
+
+
+	/**
+	 * @param inputLine
+	 * @return true if the image is optimal and false otherwise.
+	 */
+	public boolean isOptimalImage( String inputLine ) 
+	{
+		// if the img tag has a size associated with it like most Wiki pages do check that.
+		if ( this.getImageSize( inputLine ) >= ImageFetcher.MINIMUM_IMAGE_SIZE )
+		{
+			String src = this.getImageSrc(inputLine);
+			if ( src.endsWith("png") || src.endsWith("jpg"))
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
+
 	/**
 	 * @return True if the image was down loaded correctly and false otherwise.
 	 */
@@ -144,6 +219,7 @@ public class ImageFetcher
 		int beginIndex = inputLine.indexOf( "width=\"", fromIndex ) + "width=\"".length();
 		int endIndex   = inputLine.indexOf( "\"", beginIndex );
 		String size = inputLine.substring(beginIndex, endIndex);
+		size = stripScale(size);
 		try
 		{
 			return Integer.parseInt(size);
@@ -154,6 +230,28 @@ public class ImageFetcher
 		}
 	}
 	
+	/**
+	 * Strips off the 'px' or 'cm' or what have you from the image size if there is one.
+	 * @param size
+	 */
+	public static String stripScale( String size )
+	{
+		if ( size == null || size.length() < 1)
+		{
+			return "";
+		}
+		int pos = 0;
+		for ( ; pos < size.length(); pos++ )
+		{
+			if ( Character.isDigit(size.charAt(pos)) == false )
+			{
+				return size.substring( 0, pos );
+			}
+		}
+		return size;
+	}
+
+
 	/**
 	 * @param image name with expected path so a File can be tested.
 	 * @return
