@@ -3,11 +3,7 @@
  */
 package nisbet.andrew.test;
 
-import static org.junit.Assert.*;
-
-import java.io.File;
-import java.net.UnknownHostException;
-
+import static org.junit.Assert.assertTrue;
 import nisbet.andrew.service.ImageFetcher;
 
 import org.junit.Test;
