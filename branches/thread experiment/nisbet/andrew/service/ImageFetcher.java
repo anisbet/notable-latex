@@ -29,7 +29,7 @@ import javax.imageio.ImageIO;
  */
 public class ImageFetcher 
 {
-	public final static int MINIMUM_IMAGE_SIZE = 100; // adjust this to screen out smaller images.
+	public final static int MINIMUM_IMAGE_SIZE = 150; // adjust this to screen out smaller images.
 	private int size;
 	private URL imageURL;       // the page that the image source can be found on.
 	private String searchName;  // the most basic name this image has to be found in an HTML page source.
@@ -135,7 +135,10 @@ public class ImageFetcher
 			String src = this.getImageSrc(inputLine);
 			if ( src.endsWith("png") || src.endsWith("jpg"))
 			{
-				return true;
+				if ( ! src.contains(".svg"))
+				{
+					return true;
+				}
 			}
 		}
 		return false;
@@ -267,6 +270,10 @@ public class ImageFetcher
 	 */
 	public static boolean testImageExists( String image )
 	{
+		if ( image == null || image.length() < 1 )
+		{
+			return false;
+		}
 		File file = new File( image );
 		if ( file.exists() && file.isFile() )
 		{
