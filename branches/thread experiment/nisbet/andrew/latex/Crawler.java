@@ -37,6 +37,7 @@ public class Crawler implements NoteCrawler
 	private NotableDictionary linkDictionary = null;
 	private NotableDictionary charDictionary = null;
 	private Document latexDocument;
+	private boolean isNumberedCodeLines = false;
 	
 	/**
 	 * @param openNoteBook
@@ -123,7 +124,14 @@ public class Crawler implements NoteCrawler
 		if ( this.isVerbatim == true && ! line.startsWith( "code:" ))
 		{
 			line = line.replaceAll( "\t", "  " );
-			lineBuff.append( ++lineNumber + ") " + line );
+			if ( this.isNumberedCodeLines )
+			{
+				lineBuff.append( ++lineNumber + ") " + line );
+			}
+			else
+			{
+				lineBuff.append( line );
+			}
 		} 
 		else if ( line.startsWith( "def:" ) )
 		{
@@ -212,7 +220,11 @@ public class Crawler implements NoteCrawler
 		}
 		else if ( line.startsWith( "code:" ) && this.isVerbatim == false )
 		{
-			// TODO add title for code segment optional.
+			// TODO add title for code segment optional
+			if ( line.startsWith("code:#"))
+			{
+				this.isNumberedCodeLines = true;
+			}
 			System.out.println( "found 'code segment'" );
 			lineBuff.append( "\\begin{verbatim}\n" );
 			this.isVerbatim = true;
@@ -220,6 +232,7 @@ public class Crawler implements NoteCrawler
 		else if ( line.startsWith( "code:" ) && this.isVerbatim == true )
 		{
 			this.isVerbatim = false;
+			this.isNumberedCodeLines = false;
 			lineBuff.append( "\\end{verbatim}\n" );
 			this.lineNumber = 0; // reset line numbering.
 		}
