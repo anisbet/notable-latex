@@ -3,18 +3,10 @@
  */
 package nisbet.andrew.service;
 
-import java.awt.List;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.BitSet;
-import java.util.Collections;
-import java.util.Enumeration;
 import java.util.Hashtable;
-import java.util.LinkedList;
-import java.util.Set;
-import java.util.Vector;
-
 import java.util.Iterator;
+import java.util.Set;
 
 /**
  * Closest string is an algorithm that will find the nearest match of a 
@@ -66,7 +58,7 @@ public class ClosestString
 				output[j].append( cout );
 			}
 		}
-		computeScore( 0 );
+		computeScore( 0 ); // Start the comparison with the zeroth element.
 		System.out.println( "String " + 
 				matrix[this.smallPair[0]] + " and " + matrix[this.smallPair[1]] + 
 				" are the closest match with a score of " + this.minScore );
@@ -84,7 +76,7 @@ public class ClosestString
 			if ( currentScore < this.minScore )
 			{
 				this.minScore = currentScore;
-				this.smallPair [0] = which;
+				this.smallPair[0] = which;
 				this.smallPair[1] = i;
 			}
 		}
@@ -92,7 +84,7 @@ public class ClosestString
 		{
 			return;
 		}
-		computeScore(which+1);
+		computeScore(which+1); // continue recursively
 	}
 	
 	/**
