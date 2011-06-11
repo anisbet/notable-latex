@@ -128,7 +128,7 @@ public class WikipediaServiceRequest implements ServiceRequest
 				//get the Item element
 				Element element = ( Element )nodeList.item( i );
 				this.linkTarget = getTextValue( element, "Url" );
-				// this.imageName = getAttributeValue( element, "Image", "source");
+				//String imageName = getAttributeValue( element, "Image", "source");
 				if ( this.linkTarget != null && this.linkTarget.length() > 0 )
 				{
 					// finds the optimal image within the page.
@@ -143,6 +143,25 @@ public class WikipediaServiceRequest implements ServiceRequest
 		}
 	}
 	
+	
+	
+	/**
+	 * @param ele
+	 * @param tagName
+	 * @param attribute
+	 * @return
+	 */
+	private String getAttributeValue( Element ele, String tagName, String attribute )
+	{
+		String text = null;
+		NodeList nodeList = ele.getElementsByTagName( tagName );
+		if( nodeList != null && nodeList.getLength() > 0 ) 
+		{
+			Element element = ( Element )nodeList.item( 0 );
+			text = element.getAttribute( attribute );
+		}
+		return text;
+	}
 
 	/**
 	 * @param ele
