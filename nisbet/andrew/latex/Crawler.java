@@ -186,7 +186,7 @@ public class Crawler implements NoteCrawler
 			{
 				notes.mark(); // save the position in the stream
 				listItems = notes.readLine();
-				if ( listItems.startsWith( "#" ) == false)
+				if ( listItems != null && listItems.startsWith( "#" ) == false)
 				{
 					notes.reset(); // replace the marker.
 					break;
@@ -209,7 +209,7 @@ public class Crawler implements NoteCrawler
 			{
 				notes.mark(); // save the position in the stream
 				listItems = notes.readLine();
-				if ( listItems.startsWith( "-" ) == false)
+				if ( listItems != null && listItems.startsWith( "-" ) == false)
 				{
 					notes.reset(); // replace the marker.
 					break;
