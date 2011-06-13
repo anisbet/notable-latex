@@ -18,12 +18,16 @@ public class ClosestStringTest {
 		new ClosestString( c );
 		String[] d = { "a", "b", "c", "d" };
 		new ClosestString( d );
-		try{
-			new ClosestString(null);
-		} catch (Exception e)
-		{
-			assertTrue( e instanceof NullPointerException );
-		}
+
+	}
+	
+	@Test
+	public void ClosestStringConstructorTest(){
+		ClosestString cs = new ClosestString("threestring");
+		cs.addString("twostring");
+		cs.addString("someotherthing");
+		cs.addString("onestring");
+		cs.start();
 	}
 
 }
