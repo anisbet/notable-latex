@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Set;
+import java.util.Vector;
 
 /**
  * Closest string is an algorithm that will find the nearest match of a 
@@ -22,10 +23,55 @@ public class ClosestString
 	private int minScore = Integer.MAX_VALUE;
 	private int[] smallPair = new int[2];
 	
+	// temporary storage of strings for processing later.
+	private Vector<String> tempMatrix;
+	
 	/**
+	 * First of the strings to compare -- add others with the addString method.
+	 * @param string
+	 */
+	public ClosestString( String string )
+	{
+		tempMatrix = new Vector<String>();
+		tempMatrix.add( string );
+	}
+	
+	/**
+	 * A set of strings to compare.
 	 * @param strings
 	 */
 	public ClosestString( String[] strings )
+	{
+		start(strings);
+	}
+	
+	/**
+	 * Adds a string to the list to be compared.
+	 * @param string
+	 */
+	public void addString( String string )
+	{
+		tempMatrix.add(string);
+	}
+	
+	/**
+	 * Start if you have used the single argument constructor.
+	 */
+	public void start()
+	{
+		String[] strings = new String[tempMatrix.size()];
+		int i = 0;
+		for ( String string : tempMatrix )
+		{
+			strings[i++] = string;
+		}
+		start(strings);
+	}
+	
+	/**
+	 * @param strings
+	 */
+	public void start( String[] strings )
 	{
 		stringCount = strings.length;
 		matrix = new StringBuffer[stringCount];
@@ -187,7 +233,8 @@ public class ClosestString
 	 * 4 strings e,e,f,x we see that e has a frequency of 2 but both f and x have frequencies of 1 each. This causes
 	 * a problem because in the worst case c,d,e,f each is different character but all could claim they are the highest
 	 * frequency and the result would be d,d,d,d which would match all strings as closest. To get around that we 
-	 * are going to, in the case of a tie, change the frequency by the following formula: 97 + index of parent string.
+	 * are going to, in the case of a tie, rank the frequencies in decending order depending on their order in the 
+	 * array of Strings. I change the frequency by the following formula: 97 + index of parent string.
 	 * @param hashTable
 	 * @param key of the current frequency to be added to the table
 	 * @param i the current frequency to be added to the table
@@ -197,7 +244,7 @@ public class ClosestString
 		int j = i;
 		if ( hashTable.containsKey(key))
 		{
-			// what do we do? we add the frequencies we have with the ones already there
+			//we add the frequencies we have with the ones already there
 			j += hashTable.get(key);
 		}
 		while ( hashTable.containsValue(j) )
