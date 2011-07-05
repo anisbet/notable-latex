@@ -12,6 +12,7 @@ import java.net.URLEncoder;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import nisbet.andrew.latex.Cleaner;
 import nisbet.andrew.latex.LaTeXLink;
 import nisbet.andrew.link.Link;
 
@@ -134,7 +135,7 @@ public class WikipediaServiceRequest implements ServiceRequest
 					// finds the optimal image within the page.
 					this.imageFetcher = new ImageFetcher( this.linkTarget );
 				}
-				this.description = getTextValue( element, "Description" );
+				this.description = Cleaner.clean( getTextValue( element, "Description" ) );
 			}
 		}
 		else
@@ -145,23 +146,23 @@ public class WikipediaServiceRequest implements ServiceRequest
 	
 	
 	
-	/**
-	 * @param ele
-	 * @param tagName
-	 * @param attribute
-	 * @return
-	 */
-	private String getAttributeValue( Element ele, String tagName, String attribute )
-	{
-		String text = null;
-		NodeList nodeList = ele.getElementsByTagName( tagName );
-		if( nodeList != null && nodeList.getLength() > 0 ) 
-		{
-			Element element = ( Element )nodeList.item( 0 );
-			text = element.getAttribute( attribute );
-		}
-		return text;
-	}
+//	/**
+//	 * @param ele
+//	 * @param tagName
+//	 * @param attribute
+//	 * @return
+//	 */
+//	private String getAttributeValue( Element ele, String tagName, String attribute )
+//	{
+//		String text = null;
+//		NodeList nodeList = ele.getElementsByTagName( tagName );
+//		if( nodeList != null && nodeList.getLength() > 0 ) 
+//		{
+//			Element element = ( Element )nodeList.item( 0 );
+//			text = element.getAttribute( attribute );
+//		}
+//		return text;
+//	}
 
 	/**
 	 * @param ele
