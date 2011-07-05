@@ -14,6 +14,8 @@ import java.net.UnknownHostException;
 
 import javax.imageio.ImageIO;
 
+import nisbet.andrew.latex.Cleaner;
+
 /**
  * This class takes a url and name of an image and will
  * find the src of the image. This is required because the Wikipedia doesn't
@@ -158,6 +160,8 @@ public class ImageFetcher
 			}
 			System.out.println( "file: " + this.imageName + " retreived and written to local file system." );
 			BufferedImage image = ImageIO.read( this.imageURL );
+			// This next line gets rid of url encoded '%' which is a comment character in latex.
+			this.imageName = Cleaner.cleanURLEncoded(this.imageName);
 			File outputfile = new File( this.imageName );
 			if ( this.imageName.endsWith( "jpg" ) )
 			{

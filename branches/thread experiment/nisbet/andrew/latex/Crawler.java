@@ -269,6 +269,7 @@ public class Crawler implements NoteCrawler
 	 */
 	private String clean( String line ) 
 	{
+		// TODO move this to the cleaner class.
 		Enumeration<String> e = this.charDictionary.keys();
 		//iterate through Hashtable keys Enumeration
 		String searchValue = null;
