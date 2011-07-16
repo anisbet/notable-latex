@@ -25,6 +25,7 @@ public class ClosestString
 	
 	// temporary storage of strings for processing later.
 	private Vector<String> tempMatrix;
+	private String matchSeed;
 	
 	/**
 	 * First of the strings to compare -- add others with the addString method.
@@ -33,7 +34,7 @@ public class ClosestString
 	public ClosestString( String string )
 	{
 		tempMatrix = new Vector<String>();
-		tempMatrix.add( string );
+		tempMatrix.add(string);
 	}
 	
 	/**
@@ -46,8 +47,26 @@ public class ClosestString
 	}
 	
 	/**
+	 * @param seed
+	 * @param stringCollection
+	 * @return most optimal match to the seed.
+	 */
+	public ClosestString( String matchSeed, Vector<String> stringCollection )
+	{
+		this.matchSeed = matchSeed;
+		this.tempMatrix = new Vector<String>();
+		// add the match seed and compare against the rest of the list just once.
+		for ( String string : stringCollection )
+		{
+			this.tempMatrix.add(string);
+		}
+		this.tempMatrix.insertElementAt(this.matchSeed, 0);
+		start();
+	}
+	
+	/**
 	 * Adds a string to the list to be compared.
-	 * @param string
+	 * @param string to be added for consideration
 	 */
 	public void addString( String string )
 	{
@@ -60,6 +79,7 @@ public class ClosestString
 	public void start()
 	{
 		String[] strings = new String[tempMatrix.size()];
+		System.err.println("the size of tempMatrix is " + tempMatrix.size() );
 		int i = 0;
 		for ( String string : tempMatrix )
 		{
@@ -69,9 +89,17 @@ public class ClosestString
 	}
 	
 	/**
+	 * @return The string that matched the closest.
+	 */
+	public String getClosestMatch()
+	{
+		return this.tempMatrix.get(this.smallPair[1]);
+	}
+	
+	/**
 	 * @param strings
 	 */
-	public void start( String[] strings )
+	private void start( String[] strings )
 	{
 		stringCount = strings.length;
 		matrix = new StringBuffer[stringCount];
@@ -104,10 +132,25 @@ public class ClosestString
 				output[j].append( cout );
 			}
 		}
-		computeScore( 0 ); // Start the comparison with the zeroth element.
-		System.out.println( "String " + 
-				matrix[this.smallPair[0]] + " and " + matrix[this.smallPair[1]] + 
-				" are the closest match with a score of " + this.minScore );
+		if (isSeededCompare())
+		{
+			this.computeScore(); // not a recursive call just use the seed.
+		}
+		else
+		{
+			computeScore( 0 ); // Start the comparison with the zeroth element and continue recursively
+		}
+//		System.out.println( "String " + 
+//				matrix[this.smallPair[0]] + " and " + matrix[this.smallPair[1]] + 
+//				" are the closest match with a score of " + this.minScore );
+	}
+
+	/**
+	 * @return True if the match Seed has been set and false otherwise.
+	 */
+	private boolean isSeededCompare() 
+	{
+		return this.matchSeed != null;
 	}
 
 	/**
@@ -131,6 +174,23 @@ public class ClosestString
 			return;
 		}
 		computeScore(which+1); // continue recursively
+	}
+	
+	/**
+	 * Computes the score of the closest pair giving a clear result of which of the strings is closest.
+	 */
+	private void computeScore( ) 
+	{
+		this.smallPair[0] = 0;
+		for ( int i = 1; i < output.length; i++ )
+		{
+			int currentScore = xor( this.output[0], this.output[i] );
+			if ( currentScore < this.minScore )
+			{
+				this.minScore = currentScore;
+				this.smallPair[1] = i;
+			}
+		}
 	}
 	
 	/**
@@ -297,6 +357,14 @@ public class ClosestString
 			buffer.append( string + "\n" );
 		}
 		return buffer.toString();
+	}
+
+	/**
+	 * @return the score of the closest string 0 is an exact match big numbers less so.
+	 */
+	public int getScore() 
+	{
+		return this.minScore;
 	}
 	
 }

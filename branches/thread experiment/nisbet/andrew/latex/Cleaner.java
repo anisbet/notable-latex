@@ -32,6 +32,8 @@ public class Cleaner
 		}
 		String output = new String();
 		output = string.replaceAll("%", "");
+//		output = output.replaceAll(".", "0");
+//		output = output.replaceAll("0jpg", ".jpg");
 		return output;
 	}
 }

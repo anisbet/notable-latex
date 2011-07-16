@@ -75,7 +75,7 @@ public class ImageFetcherTest {
 	public void testOptimalImage()
 	{
 		ImageFetcher fetcher = null;
-		fetcher = new ImageFetcher("http://en.wikipedia.org/wiki/Apiaceae");
+		fetcher = new ImageFetcher("http://en.wikipedia.org/wiki/Apiaceae", null, false);
 		assertTrue(fetcher.download());
 		assertTrue( ImageFetcher.testImageExists( fetcher.getImageName() ) );
 		System.out.println( fetcher.getImageName());

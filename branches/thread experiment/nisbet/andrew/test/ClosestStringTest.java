@@ -1,6 +1,6 @@
 package nisbet.andrew.test;
 
-import static org.junit.Assert.*;
+import java.util.Vector;
 
 import nisbet.andrew.service.ClosestString;
 
@@ -28,6 +28,26 @@ public class ClosestStringTest {
 		cs.addString("someotherthing");
 		cs.addString("onestring");
 		cs.start();
+	}
+	
+	@Test
+	public void ClosestStringVectorConstructor()
+	{
+		Vector<String> a = new Vector<String>();
+		a.add( "twostring" );
+		a.add( "someotherthing" );
+		a.add( "threestring" );
+		//a.add( "onestring" );
+		ClosestString cStr = new ClosestString("onestring", a);
+		System.out.println( ">>> The closest match to 'onestring' is '" + cStr.getClosestMatch() + "'");
+		
+		a = new Vector<String>();
+//		a.add( "twostring" );
+//		a.add( "someotherthing" );
+//		a.add( "threestring" );
+		//a.add( "onestring" );
+		cStr = new ClosestString("onestring", a);
+		System.out.println( ">>> The closest match to 'onestring' is '" + cStr.getClosestMatch() + "'");
 	}
 
 }

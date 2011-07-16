@@ -11,6 +11,7 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.UnknownHostException;
+import java.util.Vector;
 
 import javax.imageio.ImageIO;
 
@@ -74,15 +75,20 @@ public class ImageFetcher
 	/**
 	 * Searches the argument page for images to download.
 	 * @param htmlPage
+	 * @param imageSearchName TODO
+	 * @param unusedFlag TODO
 	 */
-	public ImageFetcher( String htmlPage ) 
+	public ImageFetcher( String htmlPage, String imageSearchName, boolean unusedFlag ) 
 	{
 		this.imageURL = null;
+		this.searchName = imageSearchName;
+		String optimalImage = null;
 		try {
 			this.imageURL = new URL( htmlPage );
 			BufferedReader in;
 			in = new BufferedReader( new InputStreamReader( this.imageURL.openStream() ) );
 			String inputLine;
+			Vector<String> images = new Vector<String>();
 			// read the content of the URL until you get an image mention.
 			while ( ( inputLine = in.readLine() ) != null )
 			{
@@ -90,13 +96,28 @@ public class ImageFetcher
 			    {
 			    	if ( isOptimalImage( inputLine ) )
 			    	{
-			    		String optimalImage = getImageSrc( inputLine );
-			    		this.imageName = getLocalName( optimalImage );
-			    		this.imageURL  = new URL( optimalImage );
+			    		optimalImage = getImageSrc( inputLine );
+			    		images.add(optimalImage);
+//			    		this.imageName = getLocalName( optimalImage );
+//			    		this.imageURL  = new URL( optimalImage );
 			    	}
 			    }
 			}
 			in.close();
+			// now find the most promising image from those on the page.
+//			System.out.println("\n\n"+images+"\n\nThe search value is: '" + this.searchName + "'.");
+			
+			ClosestString closestString = new ClosestString(this.searchName, images);
+			if ( closestString.getScore() > 0 ) // we don't want exact matches that is just the search string not a file name
+			{ // with .jpg or what not.
+				optimalImage = closestString.getClosestMatch();
+				this.imageName = getLocalName( optimalImage );
+				this.imageURL  = new URL( optimalImage );
+			}
+		}
+		catch (MalformedURLException e1)
+		{
+			System.err.println("*** Error can't make a URL with the string '" + optimalImage + "'!***");
 		}
 		catch (IOException e)
 		{
