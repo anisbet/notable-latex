@@ -115,7 +115,7 @@ public class ImageFetcher
 				this.imageURL  = new URL( optimalImage );
 			}
 		}
-		catch (MalformedURLException e1)
+		catch (MalformedURLException e1) // TODO why do we sometimes get the wrong name!
 		{
 			System.err.println("*** Error can't make a URL with the string '" + optimalImage + "'!***");
 		}
