@@ -179,10 +179,11 @@ public class ImageFetcher
 			{
 				return false;
 			}
-			System.out.println( "file: " + this.imageName + " retreived and written to local file system." );
+			System.out.print( "file: " + this.imageName + " retreived and written to local file system as '" );
 			BufferedImage image = ImageIO.read( this.imageURL );
 			// This next line gets rid of url encoded '%' which is a comment character in latex.
 			this.imageName = Cleaner.cleanURLEncoded(this.imageName);
+			System.out.println( this.imageName + "'." );
 			File outputfile = new File( this.imageName );
 			if ( this.imageName.endsWith( "jpg" ) )
 			{
