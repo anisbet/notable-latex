@@ -3,6 +3,8 @@
  */
 package nisbet.andrew.latex;
 
+import java.util.Vector;
+
 /**
  * @author anisbet
  *
@@ -30,8 +32,7 @@ public class Cleaner
 			return "";
 		}
 		String output = new String();
-		output = string.replaceAll("%", "");
-		output = removePeriods( output );
+		output = cleanSpecialCharacters( output );
 		return output;
 	}
 
@@ -40,13 +41,14 @@ public class Cleaner
 	 * LaTeX balks at periods, expecting a file extension.
 	 * @param output
 	 */
-	public static String removePeriods(String output) 
+	public static String cleanSpecialCharacters(String output) 
 	{
-		StringBuffer buffer = new StringBuffer(output);
+		Vector<Character> buffer = new Vector<Character>();
 		boolean isFirstPeriod = true;
-		for ( int i = buffer.length() -1; i >= 0; i-- )
+		for ( int i = output.length() -1; i >= 0; i-- )
 		{
-			if ( buffer.charAt(i) == '.' )
+			char c = output.charAt(i);
+			if ( c == '.' ) // any dot in the name is thought to start the extension which is stupid.
 			{
 				if ( isFirstPeriod )
 				{
@@ -54,10 +56,21 @@ public class Cleaner
 				}
 				else
 				{
-					buffer.deleteCharAt(i);
+					continue;
 				}
 			}
+			else if (c == '_' || c == '-' || c == '%') // % is the worst because it comments the rest of the line.
+			{
+				continue;
+			}
+			buffer.insertElementAt(c, 0);
 		}
-		return buffer.toString();
+		StringBuffer buffOut = new StringBuffer();
+		for ( Character c : buffer )
+		{
+			buffOut.append(c);
+		}
+		
+		return buffOut.toString();
 	}
 }
