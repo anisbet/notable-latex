@@ -31,8 +31,7 @@ public class Cleaner
 		{
 			return "";
 		}
-		String output = new String();
-		output = cleanSpecialCharacters( output );
+		String output = cleanSpecialCharacters( string );
 		return output;
 	}
 
@@ -45,9 +44,10 @@ public class Cleaner
 	{
 		Vector<Character> buffer = new Vector<Character>();
 		boolean isFirstPeriod = true;
+		char c;
 		for ( int i = output.length() -1; i >= 0; i-- )
 		{
-			char c = output.charAt(i);
+			c = output.charAt(i);
 			if ( c == '.' ) // any dot in the name is thought to start the extension which is stupid.
 			{
 				if ( isFirstPeriod )
@@ -66,9 +66,9 @@ public class Cleaner
 			buffer.insertElementAt(c, 0);
 		}
 		StringBuffer buffOut = new StringBuffer();
-		for ( Character c : buffer )
+		for ( Character ch : buffer )
 		{
-			buffOut.append(c);
+			buffOut.append(ch);
 		}
 		
 		return buffOut.toString();
