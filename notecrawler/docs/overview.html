@@ -1,12 +1,22 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head><title>Notable</title></head>
+<head>
+<style type="text/css">
+.bold {font-weight: bold;}
+</style>
+<title>Notable</title>
+</head>
 <body>
 <h2>Notable</h2>
 <p>Notable is used to take hand written flat text notes and creates a PDF with many features but without requiring the author to know LaTeX.</p>
 <p>Notable comes with a very powerful feature that allows you to specify key phrases that Notable will look up on Wikipedia at compile time.
-The firt time Notable runs on a document it creates a database of links. It searches the term finds the hyperlink 
+The first time Notable runs on a document it creates a database of links. It searches the term finds the hyper link 
 to the appropriate page and make an entry in the database. All links are refreshed automatically after 6 months.</p>
+
+<p>Note that Notable requires LaTeX to work. If you don't know what LaTeX is check it out <a href="http://www.latex-project.org/">here</a>.
+There are instructions for downloading and installing and it is open source. This version of <span class="bold">Notable is tested on Linux Ubuntu only</b>.
+If you have access to other OSs like Mac or Windows feel free to contribute code to make the project better.
+</p>
 
 <h4>Images</h4>
 <p>Notable works by querying Wikipedia for all text that appears with in the special delimiters of '+'. In addition if there is an 
@@ -49,7 +59,7 @@ created, and will create a cover page.
 <tr><td>Section</td><td>'<code>\t[Section Name]</code>'</td></tr>
 <tr><td>Sub Section</td><td>'<code>\t\t[Sub Section Name]</code>'</td></tr>
 <tr><td>Sub Sub Section</td><td>'<code>\t\t\t[Sub Sub Section Name]</code>'</td></tr>
-<tr><td>Table</td><td>'<code>table:[optional title]<br/>-<br/>title ['|' or TAB] next title<br/>-<br/>one ['|' or TAB] next one<br/>two ['|' or TAB] next two<br/>-<br/>table:<br/></code>'</td></tr>
+<tr><td>Table</td><td>'<code>table:[optional title]<br/>-<br/>title one '|' title two<br/>-<br/>one '|' next one<br/>two '|' next two<br/>-<br/>table:<br/></code>'</td></tr>
 </tbody>
 </table>
 
