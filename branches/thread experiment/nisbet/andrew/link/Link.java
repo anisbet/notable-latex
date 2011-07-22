@@ -9,6 +9,11 @@ public class Link
 {
 	private String name;
 	
+	public String getFormattedImage()
+	{
+		return "";
+	}
+	
 	/**
 	 * @param linkName
 	 */
@@ -52,14 +57,16 @@ public class Link
 	/**
 	 * @param name the name to set
 	 */
-	public void setName(String name) {
+	public void setName(String name) 
+	{
 		this.name = name;
 	}
 
 	/**
 	 * @return the name
 	 */
-	public String getName() {
+	public String getName() 
+	{
 		return name;
 	}
 }
