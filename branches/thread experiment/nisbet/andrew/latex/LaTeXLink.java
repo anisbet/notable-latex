@@ -31,7 +31,7 @@ public class LaTeXLink extends Link
 	public String getLink() 
 	{
 		StringBuffer out = new StringBuffer();
-		out.append( "\\href{" + target + "}{" + getName() + "}\n" );
+		out.append( "\\href{" + target + "}{" + getName() + "} " );
 		out.append( this.formatedLatexImage );
 		return out.toString();
 	}
