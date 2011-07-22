@@ -105,6 +105,8 @@ public class Crawler implements NoteCrawler
 			searchWord = lineParser.nextLink();
 			Link link = linkCrawler.getLink( searchWord );
 			line = line.replace( LINK_DELIMITER + searchWord + LINK_DELIMITER, link.getLink() );
+			// this stops a link with a figure from breaking a line in the output latex. 
+			line = line + link.getFormattedImage(); // adds the image if there is one and if not just adds an empty string.
 		}
 		return line;
 	}

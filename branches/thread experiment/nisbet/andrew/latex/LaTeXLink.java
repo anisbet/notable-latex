@@ -30,10 +30,15 @@ public class LaTeXLink extends Link
 	@Override
 	public String getLink() 
 	{
-		StringBuffer out = new StringBuffer();
-		out.append( "\\href{" + target + "}{" + getName() + "} " );
-		out.append( this.formatedLatexImage );
-		return out.toString();
+		return "\\href{" + target + "}{" + getName() + "} ";
+	}
+	
+	/**
+	 * @return formatted Image
+	 */
+	public String getFormattedImage()
+	{
+		return this.formatedLatexImage;
 	}
 	
 	/* (non-Javadoc)
