@@ -30,7 +30,7 @@ public class LaTeXLink extends Link
 	@Override
 	public String getLink() 
 	{
-		return "\\href{" + target + "}{" + getName() + "} ";
+		return "\\href{" + target + "}{" + getName() + "}";
 	}
 	
 	/**
