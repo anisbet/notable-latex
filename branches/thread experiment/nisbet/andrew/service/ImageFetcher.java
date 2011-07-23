@@ -292,7 +292,7 @@ public class ImageFetcher
 
 	/**
 	 * @param image name with expected path so a File can be tested.
-	 * @return
+	 * @return true if the a file of the argument name image was found on the file system and false otherwise.
 	 */
 	public static boolean testImageExists( String image )
 	{
