@@ -13,7 +13,6 @@ import java.util.Vector;
  * Closest string is an algorithm that will find the nearest match of a 
  * series of strings.
  * @author anisbet
- *
  */
 public class ClosestString 
 {
@@ -46,10 +45,10 @@ public class ClosestString
 		start(strings);
 	}
 	
+
 	/**
-	 * @param seed
-	 * @param stringCollection
-	 * @return most optimal match to the seed.
+	 * @param matchSeed The string to compare to.
+	 * @param stringCollection the collection of strings to search.
 	 */
 	public ClosestString( String matchSeed, Vector<String> stringCollection )
 	{
