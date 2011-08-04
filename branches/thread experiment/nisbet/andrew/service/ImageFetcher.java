@@ -181,6 +181,7 @@ public class ImageFetcher
 			}
 			System.out.print( "file: " + this.imageName + " retreived and written to local file system as '" );
 			BufferedImage image = ImageIO.read( this.imageURL );
+			if ( image == null ) return false; // this can happen but am not sure why...
 			// This next line gets rid of url encoded '%' which is a comment character in latex.
 			this.imageName = Cleaner.cleanURLEncoded(this.imageName);
 			System.out.println( this.imageName + "'." );
