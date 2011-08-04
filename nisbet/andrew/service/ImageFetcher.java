@@ -256,11 +256,16 @@ public class ImageFetcher
 		int fromIndex  = inputLine.indexOf( "<img " ) + "<img ".length();
 		int beginIndex = inputLine.indexOf( "width=\"", fromIndex ) + "width=\"".length();
 		int endIndex   = inputLine.indexOf( "\"", beginIndex );
-		String size = inputLine.substring(beginIndex, endIndex);
-		size = stripScale(size);
 		try
 		{
+			String size = inputLine.substring(beginIndex, endIndex);
+			size = stripScale(size);
 			return Integer.parseInt(size);
+		}
+		catch ( StringIndexOutOfBoundsException e )
+		{
+			// This happens if 'width' can't be found.
+			return 0;
 		}
 		catch ( NumberFormatException e ) // incase the value couldn't be extracted from the image tag.
 		{
