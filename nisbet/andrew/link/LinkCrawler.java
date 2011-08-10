@@ -7,6 +7,7 @@ import nisbet.andrew.latex.Crawler;
 import nisbet.andrew.latex.Figure;
 import nisbet.andrew.latex.LaTeXLink;
 import nisbet.andrew.notecrawler.BestBeforeURL;
+import nisbet.andrew.notecrawler.Logger;
 import nisbet.andrew.notecrawler.NotableDictionary;
 import nisbet.andrew.service.ServiceRequest;
 import nisbet.andrew.service.WikipediaServiceRequest;
@@ -84,8 +85,9 @@ public class LinkCrawler
 		}
 		else
 		{
-			System.out.println( "the term '" + serviceRequest.getLink() +
-			"' failed. either the term could not be found or you may have lost connection to the Internet. Rerun." );
+			Logger.setUnresolvedLink(serviceRequest.getLink().toString());
+//			System.out.println( "the term '" + serviceRequest.getLink() +
+//			"' failed. either the term could not be found or you may have lost connection to the Internet. Rerun." );
 		}
 		return serviceRequest.getLink(); // a failed request will return just the search term.
 	}
