@@ -1,0 +1,8 @@
+# Introduction #
+
+Notable is a tool for generating, and compiling plain text documents into LaTeX and PDF documents. There are several features that permit flexibility in note taking, like figures and links are easy to include. You may include standard LaTeX commands but there are many short cuts that will make your life of taking notes easier.
+
+# TODO #
+Introduce a Dictionary lookup for
+`def:`
+keyword. Extend ServiceRequest.
